@@ -1,5 +1,7 @@
 # Engineering & Product Assumptions
 
+> **Historical assumptions:** These notes record earlier design intent, not verified current behavior. In particular, “local-first,” automatic sensor integrations, PWA/offline behavior, and causal/control-group claims should not be presented as guaranteed features. See [Technical architecture](TECHNICAL_ARCHITECTURE.md), [Privacy](PRIVACY.md), and [Limitations](LIMITATIONS.md).
+
 Recorded in accordance with the MaxxLoop hackathon working rules: *Make the most reasonable assumption and record it instead of asking questions.*
 
 ---

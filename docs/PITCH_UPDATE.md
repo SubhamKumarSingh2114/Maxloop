@@ -1,5 +1,7 @@
 # MaxxLoop Updated Pitch Deck (ASYNC 2026 Presentation)
 
+> **Superseded pitch draft:** This earlier script includes claims and demo figures that are not guaranteed by current code (including zero-knowledge/device-only privacy, causal net effects, real-trial metrics, and exact live demo outputs). Use [HACKATHON_GUIDE.md](HACKATHON_GUIDE.md), [DEMO_SCRIPT.md](DEMO_SCRIPT.md), and [JUDGE_QA.md](JUDGE_QA.md) for accurate current wording.
+
 Slide-by-slide presentation script reflecting the actual, working production build.
 
 ---

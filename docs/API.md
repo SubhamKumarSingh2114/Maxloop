@@ -1,165 +1,74 @@
-# MaxxLoop REST API Documentation
+# API Reference
 
-The MaxxLoop backend exposes an OpenAPI-compliant REST API. An interactive Swagger UI is available at `http://localhost:8000/docs`.
+Base URL in local development: `http://localhost:8000`. OpenAPI/Swagger: `/docs`; ReDoc: `/redoc`. Requests that need identity use the HTTP-only session cookie. JSON examples below are based on the Pydantic schemas and route implementation; actual responses include generated IDs/timestamps and may differ by data.
 
----
+## System and authentication
 
-## Base URL
-```
-http://localhost:8000
-```
+| Method/path | Auth | Purpose / effect |
+| --- | --- | --- |
+| `GET /health` | No | API process/config status. Does not prove Mongo is reachable. |
+| `POST /auth/signup` | No | Body `{name,email,password}`; creates Mongo account/session, sets cookie; 201, duplicate email 409, Mongo unavailable 503. |
+| `POST /auth/login` | No | Body `{email,password}`; sets session cookie; invalid credentials 401. |
+| `POST /auth/logout` | No | Invalidates current session if provided, clears cookie. |
+| `GET /auth/me` | Yes | Returns `{user:{id,name,email,createdAt}}`. |
 
----
+## Product endpoints
 
-## Endpoints
+| Method/path | Auth | Purpose / effect |
+| --- | --- | --- |
+| `POST /signals` | Yes | Body `{kind,value,source?,ts?}`; stores one numeric signal unless source consent disallows it. |
+| `POST /signals/batch` | Yes | Body `{signals:[{kind,value,source?,ts?}]}`; stores allowed signals, returns `saved_count`. |
+| `GET /signals?kind=&limit=` | Yes | Current user’s signals, newest first; default limit 50. |
+| `POST /checkins` | Yes | Body defined below; records a check-in and may create a snapshot/intervention, or returns crisis interception. |
+| `GET /capacity/now?demo=false` | Yes | Latest capacity, drivers, status and 14-day sparkline; demo flag selects demo profile behavior. |
+| `GET /loop/active?demo=false` | Yes | Current active loop/stage/action/timing/outcome context. |
+| `POST /loop/{intervention_id}/start?demo=false` | Yes | Marks offered intervention started. |
+| `POST /loop/{intervention_id}/skip?demo=false` | Yes | Body `{reason?}`; marks intervention skipped. |
+| `POST /loop/{intervention_id}/measure?demo=false` | Yes | Body `{focus_self,energy_self,stress_self,note?}`; saves signals/snapshot/outcome, computes measurement and updates prior. |
+| `POST /loop/{intervention_id}/feedback?demo=false` | Yes | Body `{helpful,note?}`; records user feedback for outcome when available. |
+| `GET /insights?demo=false` | Yes | Aggregates closed loops, helpfulness, improvements, actions, recurring drivers, time distribution, weekly trend. |
 
-### 1. Health Check
-`GET /health`
-- **Description:** Verifies service uptime, active LLM provider, and demo settings.
-- **Response:**
+### `POST /checkins` request
+
 ```json
 {
-  "status": "healthy",
-  "service": "maxxloop-api",
-  "version": "1.0.0",
-  "llm_provider": "template",
-  "demo_mode": true
+  "focus_self": 3.0,
+  "energy_self": 3.0,
+  "stress_self": 2.0,
+  "note": "Optional text",
+  "tags": [],
+  "window_context": "normal"
 }
 ```
 
----
+The three numeric values must each be from 1 to 5. The response normally contains `status`, `snapshot_id`, `score`, `baseline`, `delta`, `is_drop`, `drop_reason`, `cooldown_ok`, `drivers`, and nullable `active_intervention`. If the safety phrase scanner intercepts the note, the response instead has `status: "crisis_intercepted"`, a message, and `crisis_card`; normal persistence/recommendation is paused.
 
-### 2. Telemetry Ingestion
-`POST /signals`
-- **Description:** Ingests an individual sensor or manual signal.
-- **Request Body:**
-```json
-{
-  "kind": "context_switches_per_hour",
-  "value": 28.0,
-  "source": "browser"
-}
-```
-- **Response:**
-```json
-{
-  "status": "success",
-  "signal_id": 142
-}
-```
+## Privacy and demo endpoints
 
-`POST /signals/batch`
-- **Description:** Ingests an array of signals in a single transaction.
+| Method/path | Auth | Purpose / effect |
+| --- | --- | --- |
+| `GET /privacy/llm-payload` | Yes | Returns last in-memory provider transaction for that user (not durable audit history). |
+| `GET /privacy/export` | Yes | Returns the user profile and product signal/snapshot/intervention/outcome records. |
+| `DELETE /privacy/data` | Yes | Deletes the user’s product records and priors; keeps account/profile and changes consent flags. |
+| `POST /privacy/consent?...` | Yes | Query args `consent_calendar`, `consent_browser_signals`, `consent_llm_sharing`, optional `llm_provider`; updates SQL profile. |
+| `POST /demo/seed` | Yes | Body `{persona:"aarav"|"meera"}`; resets and writes shared synthetic `user_default` data. |
+| `POST /demo/trigger-drop` | Yes | Optional `{drop_severity}` body; generates sample demo signals/snapshot/action. |
+| `POST /demo/timewarp` | Yes | Optional `{seconds}` body; advances eligible demo intervention timing. |
+| `GET /demo/status` | Yes | Reports demo mode/provider/persona and configured timewarp information. |
 
----
+## Schema constraints and errors
 
-### 3. Check-ins & State Evaluation
-`POST /checkins`
-- **Description:** 10-second self-report check-in. Evaluates capacity, scans for crisis language, and triggers loop if a drop is detected.
-- **Request Body:**
-```json
-{
-  "focus_self": 2.0,
-  "energy_self": 2.0,
-  "stress_self": 4.5,
-  "note": "Exhausted after long lecture"
-}
-```
-- **Response:**
-```json
-{
-  "status": "success",
-  "snapshot_id": 48,
-  "score": 34.2,
-  "baseline": 50.0,
-  "delta": -15.8,
-  "is_drop": true,
-  "drivers": [
-    {
-      "kind": "stress_self",
-      "contribution": -0.42,
-      "label": "Self-reported stress level is elevated (4.5/5)",
-      "z_score": -2.1
-    }
-  ],
-  "active_intervention": {
-    "intervention_id": 12,
-    "action": {
-      "id": "box_breathing_4x4",
-      "title": "4x4 Box Breathing",
-      "duration_min": 3
-    }
-  }
-}
+`SignalCreate`: required string `kind`, float `value`, optional `source` default `self_report`, optional timestamp. `CheckinCreate` and loop measurement values are 1–5. Signup email uses `EmailStr`, password limits 8–128. Common HTTP failures include 401 unauthenticated/invalid credentials, 409 duplicate signup, 422 validation errors, and 503 unavailable Mongo authentication storage. Specific route details are available in runtime OpenAPI.
+
+## Example authenticated loop
+
+```text
+POST /checkins
+GET  /loop/active
+POST /loop/{id}/start   (or /skip)
+POST /loop/{id}/measure
+POST /loop/{id}/feedback
+GET  /insights
 ```
 
----
-
-### 4. Real-time Capacity
-`GET /capacity/now`
-- **Description:** Returns current score, baseline, delta, status label, top drivers, and 14-day sparkline.
-
----
-
-### 5. Hero Closed-Loop Lifecycle
-`GET /loop/active`
-- **Description:** Returns current state of the active loop (`track`, `understand`, `act`, `measure`, `improve`).
-
-`POST /loop/{id}/start`
-- **Description:** Marks intervention as started, initiating the countdown window.
-
-`POST /loop/{id}/skip`
-- **Description:** Skips intervention. Automatically registers the drop as a counterfactual control window.
-
-`POST /loop/{id}/measure`
-- **Description:** Receives post-window check-in, computes net treatment effect, updates Beta posterior.
-- **Request Body:**
-```json
-{
-  "focus_self": 4.0,
-  "energy_self": 3.5,
-  "stress_self": 2.0
-}
-```
-- **Response:**
-```json
-{
-  "status": "measured",
-  "outcome_id": 9,
-  "pre_score": 34.2,
-  "post_score": 45.6,
-  "observed_delta": 11.4,
-  "expected_delta_no_action": 2.1,
-  "net_effect": 9.3,
-  "confidence": "Medium"
-}
-```
-
-`POST /loop/{id}/feedback`
-- **Description:** Records user helpfulness rating (`helpful`: boolean).
-
----
-
-### 6. Personal Insights
-`GET /insights`
-- **Description:** Aggregates percentage helpful, average net recovery, ranked action efficacy table with 95% CIs, and drop time-of-day distributions.
-
----
-
-### 7. Privacy & Data Portability
-`GET /privacy/llm-payload`
-- **Description:** Shows exact sanitized JSON payload sent to LLM and response received.
-
-`GET /privacy/export`
-- **Description:** Exports all database rows for user as a structured JSON file.
-
-`DELETE /privacy/data`
-- **Description:** Irrevocably purges all user signals, snapshots, interventions, and outcomes.
-
----
-
-### 8. Demo Console
-`POST /demo/seed` (`{"persona": "aarav" | "meera"}`)
-`POST /demo/trigger-drop`
-`POST /demo/timewarp`
-`GET /demo/status`
+There is no `/api` prefix in FastAPI routes. Frontend requests use the configured base URL directly. See the request wrapper in `apps/web/src/lib/api.ts`.

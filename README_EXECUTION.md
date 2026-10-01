@@ -1,5 +1,7 @@
 # MaxxLoop Execution & Demo Guide (ASYNC 2026)
 
+> **Historical guide:** Some setup and deployment claims below are outdated. Use [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md), [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md), and [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md) for instructions checked against the current repository.
+
 This guide provides the fastest path to boot, run, test, and demo **MaxxLoop** for hackathon judges and evaluators.
 
 ---

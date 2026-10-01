@@ -1,0 +1,9724 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R 44 0 R 46 0 R 48 0 R 50 0 R 52 0 R 54 0 R 56 0 R 58 0 R 60 0 R 62 0 R 64 0 R 66 0 R 68 0 R 70 0 R 72 0 R] /Count 34 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 2489 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Overview) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 1) Tj
+ET
+BT
+/F2 28 Tf
+0.03 0.32 0.28
+54 738 Td
+(MaxxLoop) Tj
+ET
+BT
+/F2 16 Tf
+0.06 0.12 0.20
+54 700 Td
+(Complete Project Documentation) Tj
+ET
+BT
+/F1 11 Tf
+0.25 0.30 0.36
+54 672 Td
+(Focus & Recovery / Personal Capacity Learning Loop) Tj
+ET
+BT
+/F1 11 Tf
+0.12 0.16 0.22
+54 621 Td
+(This document is generated from the current repository documentation.) Tj
+ET
+BT
+/F1 11 Tf
+0.12 0.16 0.22
+54 602 Td
+(It covers product behavior, architecture, data, authentication, APIs,) Tj
+ET
+BT
+/F1 11 Tf
+0.12 0.16 0.22
+54 583 Td
+(local development, deployment gaps, hackathon presentation, and limits.) Tj
+ET
+BT
+/F1 11 Tf
+0.12 0.16 0.22
+54 564 Td
+(It describes MaxxLoop as a wellness/productivity prototype, not a medical device.) Tj
+ET
+BT
+/F2 12 Tf
+0.03 0.32 0.28
+54 520 Td
+(Contents) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 498 Td
+(01. Project Overview) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 485 Td
+(02. Product) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 472 Td
+(03. User Flow) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 459 Td
+(04. Architecture) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 446 Td
+(05. Technical Architecture) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 433 Td
+(06. Frontend) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 420 Td
+(07. Backend) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 407 Td
+(08. API Reference) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 394 Td
+(09. Database) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 381 Td
+(10. Data Model) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 368 Td
+(11. Authentication) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 355 Td
+(12. The MaxxLoop Loop) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 342 Td
+(13. Recommender) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 329 Td
+(14. Insights) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 316 Td
+(15. Security) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 303 Td
+(16. Privacy) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 290 Td
+(17. Testing) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 277 Td
+(18. Development) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 264 Td
+(19. Environment) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 251 Td
+(20. Deployment) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 238 Td
+(21. Troubleshooting) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 225 Td
+(22. Hackathon Guide) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 212 Td
+(23. Demo Script) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 199 Td
+(24. Judge Q&A) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 186 Td
+(25. Limitations) Tj
+ET
+BT
+/F1 9 Tf
+0.12 0.16 0.22
+66 173 Td
+(26. Roadmap) Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 5123 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Project Overview) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 2) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 738 Td
+(Project Overview) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 708 Td
+(In one sentence) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 683 Td
+(  MaxxLoop turns a short focus/energy/stress check-in into an explanation, one small) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 670 Td
+(  suggested action, and a follow-up record that can inform future suggestions.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 652 Td
+(30-second explanation) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 627 Td
+(  Students and knowledge workers can notice that they feel overloaded without) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 614 Td
+(  knowing what small step to take next or whether it helped. MaxxLoop compares a) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 601 Td
+(  user's check-in with available recent signals, explains the main contributors,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 588 Td
+(  offers one action from a curated library, and asks for another check-in. Feedback) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 575 Td
+(  is saved so later recommendations can adapt. It is a wellness/productivity) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 562 Td
+(  prototype, not a medical device or clinical diagnosis system.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 544 Td
+(One-minute explanation) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 519 Td
+(  MaxxLoop is designed around a personal learning loop: Track, Understand, Act,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 506 Td
+(  Measure, Improve. A person reports focus, energy, and stress on a short check-in.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 493 Td
+(  The API combines those values with available activity signals and historical) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 480 Td
+(  baselines to compute a bounded capacity estimate. It identifies contributors,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 467 Td
+(  applies drop/cooldown rules, and may recommend one action. After the action) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 454 Td
+(  window, the user can report their state again and whether the action felt helpful.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 441 Td
+(  The system records the before/after difference, an estimated no-action drift, and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 428 Td
+(  feedback. A statistical recommender uses prior outcomes to adjust which actions it) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 415 Td
+(  samples. These are self-report measurements and estimates; they do not establish) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 402 Td
+(  medical status or causal effectiveness.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 384 Td
+(Technical explanation) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 359 Td
+(  The web client is Next.js App Router with React and TypeScript. It calls a FastAPI) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 346 Td
+(  API using credentialed HTTP requests and a session cookie. MongoDB stores) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 333 Td
+(  account/session records; SQLModel persists product records in the configured) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 320 Td
+(  relational database \(SQLite by default\). The API's baseline, capacity, driver,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 307 Td
+(  drop-detection, recommender, and measurement modules implement) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 294 Td
+(  deterministic/statistical logic. Explanation text defaults to a template provider,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 281 Td
+(  with optional Gemini, Ollama, and OpenAI-compatible providers. See [Architecture],) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 268 Td
+(  [Recommender], and [API].) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 250 Td
+(Problem and core idea) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 225 Td
+(  The product addresses a product-design gap: self-tracking can produce information) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 212 Td
+(  without an immediate next step, generic advice may not fit the moment, and users) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 199 Td
+(  may not record whether an action helped them. MaxxLoop connects these stages in) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 186 Td
+(  one repeatable flow. This is the project's intended value proposition, not a) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 173 Td
+(  market-wide claim that competitors lack these features.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 155 Td
+(Audience and output) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 130 Td
+(  Initial intended users are students and knowledge workers who want lightweight) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 117 Td
+(  focus/recovery support. Each loop can produce a capacity estimate, signal-driver) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 104 Td
+(  labels, an offered action, a measured outcome, and a helpfulness response.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 91 Td
+(  Insights summarize records already present for the signed-in user.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 73 Td
+(What the system learns) Tj
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 4578 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - User Flow) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 3) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(  For each user/action pair, an ActionPrior stores Beta parameters \(alpha, beta\).) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 725 Td
+(  Measurement updates one parameter based on whether the computed net effect crosses) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 712 Td
+(  a threshold. This is a lightweight online statistical heuristic, not a trained) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 699 Td
+(  model and not proof that the action caused a change.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 681 Td
+(Non-medical boundary) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 656 Td
+(  MaxxLoop does not diagnose, treat, prescribe, or replace professional care. Its) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 643 Td
+(  capacity score is a product estimate, not a validated clinical measure. Crisis) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 630 Td
+(  phrase scanning is limited. See [Privacy] and [Limitations].) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 617 Td
+(Product) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 587 Td
+(Product promise) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 562 Td
+(  Help a user move from "I feel off" to one reasonable next action and a follow-up) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 549 Td
+(  check-in, with a personal history that can guide future suggestions.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 531 Td
+(Product principles visible in the implementation) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 506 Td
+(  - Short self-report check-in: Focus, Energy, Stress \(1-5\) and optional note.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 493 Td
+(  - Explainability: capacity response includes score, baseline, delta, status,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 480 Td
+(    drivers, sparkline, and timestamp.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 467 Td
+(  - One offered micro-action per triggered intervention.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 454 Td
+(  - A measured follow-up and optional helpfulness feedback.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 441 Td
+(  - User history and insights derived from saved records.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 428 Td
+(  - Non-medical language and a limited safety interruption for detected crisis) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 415 Td
+(    phrases.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 397 Td
+(Current scope) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 372 Td
+(  Implemented routes include home, login, signup, dashboard, demo, insights,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 359 Td
+(  history, profile, onboarding, and privacy. The API contains check-in, signals,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 346 Td
+(  capacity, loop, insights, privacy, demo, authentication, and health routes. See) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 333 Td
+(  [Frontend] and [API].) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 315 Td
+(Product terminology) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 290 Td
+(  - Signal: one timestamped numeric observation, such as a self-report or) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 277 Td
+(    imported/manual value.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 264 Td
+(  - Snapshot: computed capacity score and baseline at one moment.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 251 Td
+(  - Intervention: one offered action linked to a snapshot.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 238 Td
+(  - Outcome: before/after scores, estimated drift, net effect, confidence label, and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 225 Td
+(    optional feedback.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 212 Td
+(  - Loop: the product journey across check-in, action, follow-up, and learning; it) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 199 Td
+(    is represented through related records rather than a dedicated Loop database) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 186 Td
+(    table.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 168 Td
+(Product non-goals) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 143 Td
+(  The current product is not a clinician service, diagnostic tool, emergency) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 130 Td
+(  monitor, validated clinical intervention, or automatically connected) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 117 Td
+(  calendar/wearable/browser agent. Any such integrations or clinical use require) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 104 Td
+(  future implementation, consent, review, and validation.) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 91 Td
+(User Flow) Tj
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 4886 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - User Flow) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 4) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 738 Td
+(Standard authenticated journey) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 713 Td
+(flowchart TD) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 701 Td
+(  A[Home /] --> B{Account session?}) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 689 Td
+(  B -- No --> C[Sign up or log in]) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 677 Td
+(  B -- Yes --> D[Dashboard]) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 665 Td
+(  C --> D) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 653 Td
+(  D --> E[Submit focus, energy, stress check-in]) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 641 Td
+(  E --> F{Crisis phrase detected?}) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 629 Td
+(  F -- Yes --> G[Pause normal flow and show support card]) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 617 Td
+(  F -- No --> H[Save signals and compute snapshot]) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 605 Td
+(  H --> I{Drop and cooldown allows?}) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 593 Td
+(  I -- No --> J[Show capacity/status]) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 581 Td
+(  I -- Yes --> K[Explain and offer one action]) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 569 Td
+(  K --> L[Start or skip]) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 557 Td
+(  L --> M[Follow-up check-in]) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 545 Td
+(  M --> N[Save outcome and update prior]) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 533 Td
+(  N --> O[Helpful/not helpful feedback]) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 521 Td
+(  O --> P[History and insights]) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 509 Td
+(  P --> D) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 492 Td
+(Account flow) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 467 Td
+(  Signup collects name, email, and password \(minimum 8 characters, maximum 128\);) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 454 Td
+(  email is normalized to lowercase. Successful signup creates an account in MongoDB) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 441 Td
+(  and returns a session cookie. Login uses the same email/password; logout) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 428 Td
+(  invalidates the session and clears the cookie. The frontend AuthProvider restores) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 415 Td
+(  current-user state through /auth/me. API access to product data requires an) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 402 Td
+(  authenticated session.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 384 Td
+(Check-in and action flow) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 359 Td
+(  The dashboard submits Focus/Energy/Stress values to POST /checkins. The backend) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 346 Td
+(  scans optional note text for configured crisis phrases before storing the check-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 333 Td
+(  in. If not intercepted, it saves three numeric signals, gets latest additional) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 320 Td
+(  signals, computes capacity and drivers, checks drop/cooldown, and may create an) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 307 Td
+(  intervention. The UI displays the response and current loop stage. User action) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 294 Td
+(  controls call /loop/{id}/start or /skip; measure and feedback are saved through) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 281 Td
+(  corresponding endpoints.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 263 Td
+(Demo flow) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 238 Td
+(  /demo is an authenticated demo console. It can seed one of two synthetic personas,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 225 Td
+(  trigger a sample capacity drop, time-warp an action window, check demo status, and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 212 Td
+(  link to the dashboard in demo context. Seeding resets records for the shared) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 199 Td
+(  user_default demo profile and writes generated history. Treat this data as) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 186 Td
+(  disposable/demo-only; do not use the demo feature with production data.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 168 Td
+(Routes and states) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 143 Td
+(  See [Frontend] for every route and expected auth requirement. General API failures) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 130 Td
+(  are surfaced by the API wrapper as thrown errors; individual page components) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 117 Td
+(  display their own loading/error/empty states. Exact visual state wording can) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 104 Td
+(  change with UI code.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 86 Td
+(Authentication states) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 61 Td
+(  - Restoring: client checks /auth/me while auth provider initializes.) Tj
+ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 5096 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Architecture) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 5) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 738 Td
+(  - Signed out: public auth pages remain available; protected data endpoints return) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 725 Td
+(    401.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 712 Td
+(  - Signed in: provider exposes current user; profile-backed endpoints) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 699 Td
+(    create/synchronize a SQLite profile row when needed.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 686 Td
+(  - Session unavailable/expired: the API rejects the request; user must sign in) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 673 Td
+(    again.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 655 Td
+(Empty and error behavior) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 630 Td
+(  New users can have no saved snapshots, actions, or history. API models provide a) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 617 Td
+(  default capacity response when no snapshot exists and insights are computed from) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 604 Td
+(  available records. Database/Mongo unavailability may cause API errors. Pages may) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 591 Td
+(  show empty/error states rather than fabricated user activity. Demo seed data is) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 578 Td
+(  synthetic and should be labeled as such.) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 565 Td
+(System Architecture) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 535 Td
+(Component diagram) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 510 Td
+(flowchart LR) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 498 Td
+(  U[User browser] --> W[Next.js / React frontend]) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 486 Td
+(  W -->|credentialed HTTP JSON| A[FastAPI API]) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 474 Td
+(  A -->|account + session lookups| M[\(MongoDB\)]) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 462 Td
+(  A -->|signals, snapshots, interventions, outcomes, priors| S[\(SQLModel) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 450 Td
+(database: SQLite by default\)]) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 438 Td
+(  A --> E[Baseline / capacity / driver / drop / recommendation / measurement) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 426 Td
+(engines]) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 414 Td
+(  E --> D[actions.json + YAML weights and priors]) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 402 Td
+(  E --> L[Explanation provider: template by default; optional providers]) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 390 Td
+(  A --> W) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 373 Td
+(Responsibilities) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 348 Td
+(  - Web: Next.js App Router routes and React components; forms, visualizations,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 335 Td
+(    session state, API calls.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 322 Td
+(  - API: FastAPI routers perform validation, resolve identity, coordinate business) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 309 Td
+(    logic, and serialize responses.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 296 Td
+(  - Authentication store: MongoDB users and sessions collections. Mongo is contacted) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 283 Td
+(    lazily by auth operations; health and non-auth requests can be available) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 270 Td
+(    independently of it.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 257 Td
+(  - Product store: SQLModel tables using DATABASE_URL, SQLite by default. Activity) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 244 Td
+(    is stored server-side in the API process environment, not solely in the browser.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 231 Td
+(  - Engine: Python modules compute baseline/capacity, drivers, drops,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 218 Td
+(    recommendations, and outcome summaries.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 205 Td
+(  - Text layer: default deterministic template; optional Gemini/Ollama/OpenAI-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 192 Td
+(    compatible providers, with schema/phrase consistency validation and template) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 179 Td
+(    fallback.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 161 Td
+(Request/data flow) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 136 Td
+(  The browser sends JSON and includes credentials. Authentication endpoints set or) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 123 Td
+(  clear the HTTP-only session cookie. Protected requests hash the presented session) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 110 Td
+(  token and validate the MongoDB session/user. The API maps the authenticated) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 97 Td
+(  account ID to a product profile and scopes product queries by that ID. For a) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 84 Td
+(  check-in it validates numeric ranges, intercepts configured crisis phrases,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 71 Td
+(  persists signals, computes a snapshot, and may persist an intervention. Later) Tj
+ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 5005 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Technical Architecture) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 6) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(  requests update intervention status and create an outcome. Insights query those) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 725 Td
+(  records.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 707 Td
+(Storage boundary) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 682 Td
+(  MongoDB is only the account/session store in the current code. SQLite \(or another) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 669 Td
+(  SQLModel-supported configured database\) contains application profile/preferences) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 656 Td
+(  and product data. The default SQLite URL is relative to the API working directory.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 643 Td
+(  Local .env path loading is also relative to process working directory; start) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 630 Td
+(  Uvicorn from apps/api as documented.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 612 Td
+(Local development and deployment) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 587 Td
+(  Local defaults are frontend localhost:3000, API localhost:8000, MongoDB) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 574 Td
+(  localhost:27017, SQLite file maxxloop.db. CORS permits the two localhost frontend) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 561 Td
+(  origins on port 3000. Docker files exist, but the provided Compose file does not) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 548 Td
+(  provide MongoDB and its web service configuration needs review for container-to-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 535 Td
+(  container API addressing and Next rewrite behavior. See [Deployment]; do not infer) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 522 Td
+(  a verified production deployment.) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 509 Td
+(Technical Architecture) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 479 Td
+(Frontend) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 454 Td
+(  - Next.js 16.3.7 and React 19.3.0 according to apps/web/package.json.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 441 Td
+(  - TypeScript, Tailwind CSS 3, Recharts, Lucide React, clsx, and tailwind-merge.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 428 Td
+(  - App Router pages live under apps/web/src/app; shared components under) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 415 Td
+(    src/components; request wrapper and browser consent storage under src/lib.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 402 Td
+(  - Auth state uses a React context provider. The request helper uses fetch, JSON) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 389 Td
+(    headers, and credentials: "include". NEXT_PUBLIC_API_URL selects the API base;) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 376 Td
+(    default is http://localhost:8000.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 363 Td
+(  - No separate global state framework is configured in the package manifest.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 350 Td
+(    Page/component React state is used.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 332 Td
+(Backend) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 307 Td
+(  - Python >=3.11; FastAPI, Uvicorn, Pydantic 2, SQLModel/SQLAlchemy.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 294 Td
+(  - Routers are in apps/api/app/routers; schemas in models/schemas.py and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 281 Td
+(    models/auth_schemas.py.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 268 Td
+(  - Engine modules under engine/ implement baselines, scoring, driver labels, drop) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 255 Td
+(    rules, action selection, and measurement.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 242 Td
+(  - Auth helpers use PyMongo, Argon2, secure random tokens, and FastAPI) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 229 Td
+(    dependencies.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 216 Td
+(  - Data/config files: actions.json, weights.yaml, population_priors.yaml.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 203 Td
+(  - Optional numerical packages include NumPy, SciPy, pandas \(declared dependency;) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 190 Td
+(    inspect imports for actual usage before attributing a specific feature\).) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 172 Td
+(Data stores) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 147 Td
+(  SQLite via SQLModel stores User profile/preferences, Signal, CapacitySnapshot,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 134 Td
+(  Intervention, Outcome, and ActionPrior. MongoDB stores account and session) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 121 Td
+(  documents. Indexes created in Mongo: unique normalized email, session expiry TTL,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 108 Td
+(  and session user ID. SQL fields have selected indexes on IDs/timestamps/kinds; no) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 95 Td
+(  migration framework is present in the inspected repository.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 77 Td
+(Runtime configuration) Tj
+ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 19 0 R >>
+endobj
+19 0 obj
+<< /Length 5064 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Frontend) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 7) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(  Backend settings are Pydantic settings loaded from environment and .env \(see) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 725 Td
+(  [Environment]\). The frontend has a NEXT_PUBLIC_API_URL variable. Next rewrites) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 712 Td
+(  /api/* to http://localhost:8000/*; separately, current frontend code calls the API) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 699 Td
+(  base directly. Verify actual deployment routing before using this rewrite as a) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 686 Td
+(  production proxy.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 668 Td
+(Production status) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 643 Td
+(  The repository has an API Dockerfile and Compose file. No Vercel/Render deployment) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 630 Td
+(  manifest was found in the inspected file inventory. Compose does not include the) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 617 Td
+(  MongoDB service required for authentication. Production topology is therefore not) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 604 Td
+(  established by these files alone.) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 591 Td
+(Frontend) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 561 Td
+(  The Next.js App Router source is apps/web/src/app. Shared components are under) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 548 Td
+(  src/components; API methods are centralized in src/lib/api.ts.) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 530 Td
+( |  Route  |  Purpose / interaction  |  Auth  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 517 Td
+( |  ---  |  ---  |  ---  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 504 Td
+( |  /  |  Public product landing and navigation  |  Public  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 491 Td
+( |  /login  |  Email/password sign-in  |  Public  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 478 Td
+( |  /signup  |  Create account  |  Public  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 465 Td
+( |  /dashboard  |  Capacity, check-in, active action loop, follow-up  |  Authenticated) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 452 Td
+(data/API  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 439 Td
+( |  /demo  |  Seed persona, trigger drop, time-warp demo  |  Authenticated API  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 426 Td
+( |  /insights  |  Personal aggregates, trends, action summaries  |  Authenticated API  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 413 Td
+( |  /history  |  Signal/history view  |  Authenticated API  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 400 Td
+( |  /profile  |  Profile and preference surface  |  Auth-related/product APIs as) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 387 Td
+(implemented  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 374 Td
+( |  /onboarding  |  Initial setup/preferences flow  |  Product route; API requirements) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 361 Td
+(depend on page actions  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 348 Td
+( |  /privacy  |  Consent, payload inspection, export, delete controls  |  Authenticated) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 335 Td
+(API  |) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 317 Td
+(  These route files exist in the source tree. This list is not a claim that a) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 304 Td
+(  browser test was run during documentation generation.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 286 Td
+(Important components) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 261 Td
+(  AuthProvider restores current user state; AuthLayout frames auth pages; Navbar) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 248 Td
+(  links product pages; CapacityGauge and SparklineChart visualize status/history;) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 235 Td
+(  LoopRing and CycleProgress communicate stages; DriverChip and WhyThisDrawer show) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 222 Td
+(  context; ActionTimer supports timed actions; DemoBar exposes demo controls;) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 209 Td
+(  CrisisModal presents the crisis-intercept result; ThemeProvider controls theme) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 196 Td
+(  state; StatusMessage renders status feedback.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 178 Td
+(API communication) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 153 Td
+(  The API wrapper at src/lib/api.ts uses NEXT_PUBLIC_API_URL or) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 140 Td
+(  http://localhost:8000, JSON requests, and browser credentials. It exposes auth,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 127 Td
+(  check-in, capacity, loop, insights, signals, privacy, and demo operations. Non-2xx) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 114 Td
+(  responses become JavaScript errors using API detail where available. Per-page) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 101 Td
+(  components own loading and error presentation.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 83 Td
+(Styling and responsiveness) Tj
+ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 21 0 R >>
+endobj
+21 0 obj
+<< /Length 4973 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - API Reference) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 8) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(  Tailwind and global CSS define styles; responsive behavior should be confirmed at) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 725 Td
+(  the target browser sizes. No automated browser/responsive test configuration was) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 712 Td
+(  found in the inspected repository. Refer to [Testing].) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 699 Td
+(Backend) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 669 Td
+(Application) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 644 Td
+(  apps/api/app/main.py creates the FastAPI application, initializes SQLModel tables) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 631 Td
+(  in lifespan, configures credentialed CORS for http://localhost:3000 and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 618 Td
+(  http://127.0.0.1:3000, mounts domain routers, and exposes GET /health. Swagger UI) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 605 Td
+(  is /docs; ReDoc is /redoc.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 587 Td
+(Routers and processing) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 562 Td
+(  - auth: signup/login/logout/current account; MongoDB-backed account/session) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 549 Td
+(    storage.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 536 Td
+(  - signals: create, batch-create, list numeric signals; calendar/browser-source) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 523 Td
+(    values respect profile consent booleans.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 510 Td
+(  - checkins: scan note, save self-report signals, compute) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 497 Td
+(    capacity/baseline/drivers/drop, optionally create action and explanation.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 484 Td
+(  - capacity: latest capacity response and recent sparkline.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 471 Td
+(  - loop: active loop, start/skip, measure, feedback.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 458 Td
+(  - insights: aggregate saved outcomes, drivers, timestamps, and trends.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 445 Td
+(  - privacy: inspect in-memory latest provider transaction, export product records,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 432 Td
+(    delete product records, update consent/preferences.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 419 Td
+(  - demo: authenticated seed, trigger drop, timewarp, and status controls.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 401 Td
+(Engine services) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 376 Td
+(  BaselineEngine, CapacityEngine, DriverEngine, DropDetectionEngine,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 363 Td
+(  RecommenderEngine, and MeasurementEngine are called from the route handlers.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 350 Td
+(  Validation is mostly Pydantic request/response models. SQL operations use injected) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 337 Td
+(  SQLModel sessions. Auth uses FastAPI dependencies to resolve the session and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 324 Td
+(  profile.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 306 Td
+(Request lifecycle example) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 281 Td
+(  POST /checkins -> validate values -> crisis scan optional note -> persist) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 268 Td
+(  focus/energy/stress signals -> load latest ancillary signals -> compute) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 255 Td
+(  score/baseline/drivers -> evaluate drop and cooldown -> if eligible, sample an) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 242 Td
+(  action and generate explanation -> save snapshot/intervention -> return response.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 229 Td
+(  See [MaxxLoop loop].) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 211 Td
+(Errors and operations) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 186 Td
+(  FastAPI/Pydantic emits standard validation errors; auth uses 401 for invalid) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 173 Td
+(  credentials/unauthenticated access and 503 when Mongo auth storage is unavailable.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 160 Td
+(  Duplicate email signup returns 409. Database operational errors may surface) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 147 Td
+(  according to route and driver behavior. Health reports process/config status, not) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 134 Td
+(  a full readiness check for MongoDB or SQLite.) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 121 Td
+(API Reference) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 91 Td
+(  Base URL in local development: http://localhost:8000. OpenAPI/Swagger: /docs;) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 78 Td
+(  ReDoc: /redoc. Requests that need identity use the HTTP-only session cookie. JSON) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 65 Td
+(  examples below are based on the Pydantic schemas and route implementation; actual) Tj
+ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 23 0 R >>
+endobj
+23 0 obj
+<< /Length 5054 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - API Reference) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 9) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(  responses include generated IDs/timestamps and may differ by data.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 720 Td
+(System and authentication) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 695 Td
+( |  Method/path  |  Auth  |  Purpose / effect  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 682 Td
+( |  ---  |  ---  |  ---  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 669 Td
+( |  GET /health  |  No  |  API process/config status. Does not prove Mongo is reachable.) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 656 Td
+(|) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 643 Td
+( |  POST /auth/signup  |  No  |  Body {name,email,password}; creates Mongo) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 630 Td
+(account/session, sets cookie; 201, duplicate email 409, Mongo unavailable 503.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 617 Td
+( |  POST /auth/login  |  No  |  Body {email,password}; sets session cookie; invalid) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 604 Td
+(credentials 401.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 591 Td
+( |  POST /auth/logout  |  No  |  Invalidates current session if provided, clears cookie.) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 578 Td
+(|) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 565 Td
+( |  GET /auth/me  |  Yes  |  Returns {user:{id,name,email,createdAt}}.  |) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 547 Td
+(Product endpoints) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 522 Td
+( |  Method/path  |  Auth  |  Purpose / effect  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 509 Td
+( |  ---  |  ---  |  ---  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 496 Td
+( |  POST /signals  |  Yes  |  Body {kind,value,source?,ts?}; stores one numeric signal) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 483 Td
+(unless source consent disallows it.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 470 Td
+( |  POST /signals/batch  |  Yes  |  Body {signals:[{kind,value,source?,ts?}]}; stores) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 457 Td
+(allowed signals, returns saved_count.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 444 Td
+( |  GET /signals?kind=&limit=  |  Yes  |  Current user's signals, newest first; default) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 431 Td
+(limit 50.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 418 Td
+( |  POST /checkins  |  Yes  |  Body defined below; records a check-in and may create a) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 405 Td
+(snapshot/intervention, or returns crisis interception.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 392 Td
+( |  GET /capacity/now?demo=false  |  Yes  |  Latest capacity, drivers, status and 14-day) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 379 Td
+(sparkline; demo flag selects demo profile behavior.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 366 Td
+( |  GET /loop/active?demo=false  |  Yes  |  Current active) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 353 Td
+(loop/stage/action/timing/outcome context.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 340 Td
+( |  POST /loop/{intervention_id}/start?demo=false  |  Yes  |  Marks offered intervention) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 327 Td
+(started.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 314 Td
+( |  POST /loop/{intervention_id}/skip?demo=false  |  Yes  |  Body {reason?}; marks) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 301 Td
+(intervention skipped.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 288 Td
+( |  POST /loop/{intervention_id}/measure?demo=false  |  Yes  |  Body) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 275 Td
+({focus_self,energy_self,stress_self,note?}; saves signals/snapshot/outcome, computes) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 262 Td
+(measurement and updates prior.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 249 Td
+( |  POST /loop/{intervention_id}/feedback?demo=false  |  Yes  |  Body {helpful,note?};) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 236 Td
+(records user feedback for outcome when available.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 223 Td
+( |  GET /insights?demo=false  |  Yes  |  Aggregates closed loops, helpfulness,) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 210 Td
+(improvements, actions, recurring drivers, time distribution, weekly trend.  |) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 192 Td
+(`POST /checkins` request) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 169 Td
+({) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 157 Td
+(  "focus_self": 3.0,) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 145 Td
+(  "energy_self": 3.0,) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 133 Td
+(  "stress_self": 2.0,) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 121 Td
+(  "note": "Optional text",) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 109 Td
+(  "tags": [],) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 97 Td
+(  "window_context": "normal") Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 85 Td
+(}) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 68 Td
+(  The three numeric values must each be from 1 to 5. The response normally contains) Tj
+ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 25 0 R >>
+endobj
+25 0 obj
+<< /Length 5032 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Database) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 10) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(  status, snapshot_id, score, baseline, delta, is_drop, drop_reason, cooldown_ok,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 725 Td
+(  drivers, and nullable active_intervention. If the safety phrase scanner intercepts) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 712 Td
+(  the note, the response instead has status: "crisis_intercepted", a message, and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 699 Td
+(  crisis_card; normal persistence/recommendation is paused.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 681 Td
+(Privacy and demo endpoints) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 656 Td
+( |  Method/path  |  Auth  |  Purpose / effect  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 643 Td
+( |  ---  |  ---  |  ---  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 630 Td
+( |  GET /privacy/llm-payload  |  Yes  |  Returns last in-memory provider transaction for) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 617 Td
+(that user \(not durable audit history\).  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 604 Td
+( |  GET /privacy/export  |  Yes  |  Returns the user profile and product) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 591 Td
+(signal/snapshot/intervention/outcome records.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 578 Td
+( |  DELETE /privacy/data  |  Yes  |  Deletes the user's product records and priors; keeps) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 565 Td
+(account/profile and changes consent flags.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 552 Td
+( |  POST /privacy/consent?...  |  Yes  |  Query args consent_calendar,) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 539 Td
+(consent_browser_signals, consent_llm_sharing, optional llm_provider; updates SQL profile.) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 526 Td
+(|) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 513 Td
+( |  POST /demo/seed  |  Yes  |  Body {persona:"aarav" | "meera"}; resets and writes) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 500 Td
+(shared synthetic user_default data.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 487 Td
+( |  POST /demo/trigger-drop  |  Yes  |  Optional {drop_severity} body; generates sample) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 474 Td
+(demo signals/snapshot/action.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 461 Td
+( |  POST /demo/timewarp  |  Yes  |  Optional {seconds} body; advances eligible demo) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 448 Td
+(intervention timing.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 435 Td
+( |  GET /demo/status  |  Yes  |  Reports demo mode/provider/persona and configured) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 422 Td
+(timewarp information.  |) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 404 Td
+(Schema constraints and errors) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 379 Td
+(  SignalCreate: required string kind, float value, optional source default) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 366 Td
+(  self_report, optional timestamp. CheckinCreate and loop measurement values are) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 353 Td
+(  1-5. Signup email uses EmailStr, password limits 8-128. Common HTTP failures) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 340 Td
+(  include 401 unauthenticated/invalid credentials, 409 duplicate signup, 422) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 327 Td
+(  validation errors, and 503 unavailable Mongo authentication storage. Specific) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 314 Td
+(  route details are available in runtime OpenAPI.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 296 Td
+(Example authenticated loop) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 271 Td
+(POST /checkins) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 259 Td
+(GET  /loop/active) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 247 Td
+(POST /loop/{id}/start   \(or /skip\)) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 235 Td
+(POST /loop/{id}/measure) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 223 Td
+(POST /loop/{id}/feedback) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 211 Td
+(GET  /insights) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 194 Td
+(  There is no /api prefix in FastAPI routes. Frontend requests use the configured) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 181 Td
+(  base URL directly. See the request wrapper in apps/web/src/lib/api.ts.) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 168 Td
+(Database) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 138 Td
+(Two-store arrangement) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 113 Td
+( |  Store  |  Purpose  |  Configuration  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 100 Td
+( |  ---  |  ---  |  ---  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 87 Td
+( |  SQLModel relational DB \(SQLite by default\)  |  Product profile/preferences and) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 74 Td
+(signals, snapshots, interventions, outcomes, action priors  |  DATABASE_URL  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 61 Td
+( |  MongoDB  |  Authentication accounts and server-side sessions  |  MONGODB_URI,) Tj
+ET
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 27 0 R >>
+endobj
+27 0 obj
+<< /Length 5036 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Data Model) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 11) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(MONGODB_DATABASE  |) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 720 Td
+(  Default SQLite URL: sqlite:///./maxxloop.db. The relative file location depends on) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 707 Td
+(  API process working directory; standard instructions launch from apps/api.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 689 Td
+(SQL tables) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 664 Td
+(  See [Data model] for fields. SQLModel creates tables at app startup via) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 651 Td
+(  SQLModel.metadata.create_all; no schema migration tool was found. Some columns) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 638 Td
+(  store JSON strings \(drivers_json, explanation_json\) and are converted by model) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 625 Td
+(  properties or route code.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 607 Td
+(Mongo collections and indexes) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 582 Td
+(  - users: generated _id, name, normalized email, passwordHash, creation/update) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 569 Td
+(    timestamps. Unique index on email.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 556 Td
+(  - sessions: _id is SHA-256 hash of opaque cookie token, userId, createdAt,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 543 Td
+(    expiresAt. TTL index on expiresAt, plus userId index.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 525 Td
+(  The Mongo client connects lazily on auth operations. TTL cleanup is managed by) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 512 Td
+(  MongoDB TTL behavior; request authentication also checks expiry.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 494 Td
+(User scoping) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 469 Td
+(  Protected dependencies map the authenticated Mongo user ID to a SQL User profile.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 456 Td
+(  Product routers generally filter records by that ID. Outcomes are linked to an) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 443 Td
+(  intervention, which is scoped to a user when the intervention is) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 430 Td
+(  retrieved/queried. Demo endpoints intentionally operate on the shared user_default) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 417 Td
+(  synthetic profile and reset its product records; do not use this feature as normal) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 404 Td
+(  user storage.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 386 Td
+(Lifecycle and limitations) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 361 Td
+(  SQLite data is server-side wherever the API runs. A persistent volume and backups) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 348 Td
+(  are needed for a container deployment. Deleting /privacy/data removes the user's) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 335 Td
+(  product records and action priors while preserving the account and disabling) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 322 Td
+(  consent flags; it does not delete the Mongo account/session. Account deletion is) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 309 Td
+(  not exposed by this endpoint.) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 296 Td
+(Data Model) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 266 Td
+(SQLModel entities) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 241 Td
+( |  Entity  |  Key fields  |  Purpose / relationship  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 228 Td
+( |  ---  |  ---  |  ---  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 215 Td
+( |  User  |  id, display_name, timezone, created time, consent flags, LLM provider  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 202 Td
+(SQL profile keyed by authenticated Mongo user ID; default model ID exists for demo) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 189 Td
+(compatibility.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 176 Td
+( |  Signal  |  integer ID, user_id, timestamp, kind, numeric value, source  |  Individual) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 163 Td
+(observation; user and timestamp/kind are indexed.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 150 Td
+( |  CapacitySnapshot  |  ID, user_id, timestamp, score, baseline, delta, driver JSON,) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 137 Td
+(drop flag, context  |  Calculated state at a moment.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 124 Td
+( |  Intervention  |  ID, user_id, snapshot_id, action ID, chosen time, window, status,) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 111 Td
+(explanation JSON, provider, exploration flag  |  One offered action tied to a snapshot.) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 98 Td
+(Status values documented in model: offered/started/completed/skipped.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 85 Td
+( |  Outcome  |  ID, intervention_id, pre/post score, observed delta, expected no-action) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 72 Td
+(delta, net effect, confidence, helpfulness, note  |  Follow-up measurement and optional) Tj
+ET
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 29 0 R >>
+endobj
+29 0 obj
+<< /Length 4827 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Authentication) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 12) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(user feedback for an intervention.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 725 Td
+( |  ActionPrior  |  ID, user_id, action_id, alpha, beta, updated time  |  Recommender) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 712 Td
+(state for a user/action pair.  |) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 694 Td
+(  There is no dedicated SQL Loop, CheckIn, Action, or Insight table. Check-ins are) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 681 Td
+(  represented as signals plus snapshots; actions are in actions.json; insights are) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 668 Td
+(  computed from records.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 650 Td
+(Entity links) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 625 Td
+(erDiagram) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 613 Td
+(  USER ||--o{ SIGNAL : owns) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 601 Td
+(  USER ||--o{ CAPACITY_SNAPSHOT : owns) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 589 Td
+(  CAPACITY_SNAPSHOT ||--o{ INTERVENTION : context_for) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 577 Td
+(  USER ||--o{ INTERVENTION : owns) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 565 Td
+(  INTERVENTION ||--o{ OUTCOME : measured_by) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 553 Td
+(  USER ||--o{ ACTION_PRIOR : has) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 536 Td
+(  These are logical relationships; some are represented by integer/string fields) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 523 Td
+(  rather than declared ORM Relationship constraints. Mongo users and sessions are) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 510 Td
+(  separate from the SQL tables, joined by user ID in application code.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 492 Td
+(Data lifecycle) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 467 Td
+(  Check-ins add signals and snapshots. Recommendation creates an intervention and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 454 Td
+(  may initialize priors. Measurement creates an outcome and updates an existing) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 441 Td
+(  action prior. Export returns product records. Delete-data removes the user's) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 428 Td
+(  signals/snapshots/interventions/outcomes/priors but retains SQL profile and Mongo) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 415 Td
+(  account.) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 402 Td
+(Authentication) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 372 Td
+(Signup) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 347 Td
+(  POST /auth/signup accepts name, valid email, and password length 8-128. The schema) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 334 Td
+(  trims the name and lowercases/normalizes email. The auth helper hashes passwords) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 321 Td
+(  using Argon2 and inserts a MongoDB user. A unique email index prevents duplicate) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 308 Td
+(  accounts \(409\). Successful signup immediately creates a session and sets the) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 295 Td
+(  session cookie.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 277 Td
+(Login and session) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 252 Td
+(  POST /auth/login accepts email/password and verifies the stored Argon2 hash.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 239 Td
+(  Unknown emails and mismatched passwords return the same 401 message. A random) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 226 Td
+(  opaque token is generated; its SHA-256 hash is stored in MongoDB. The raw token is) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 213 Td
+(  set as an HTTP-only, SameSite=Lax cookie, with seven-day max age. The secure) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 200 Td
+(  attribute is enabled when APP_ENV is not development/dev/local/test. A Mongo TTL) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 187 Td
+(  index supports expiry cleanup, and requests also check expiry.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 169 Td
+(Logout/current user) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 144 Td
+(  POST /auth/logout deletes the current server-side session when present and clears) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 131 Td
+(  the cookie. GET /auth/me resolves the session and returns public user fields.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 118 Td
+(  Product endpoints use FastAPI auth dependencies and return 401 if unauthenticated.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 105 Td
+(  A SQL profile keyed by authenticated user ID is created/synchronized on demand.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 87 Td
+(Authorization and limitations) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 62 Td
+(  Product queries use the current user ID; demo APIs are a special case that) Tj
+ET
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 31 0 R >>
+endobj
+31 0 obj
+<< /Length 5106 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - The MaxxLoop Loop) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 13) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(  manipulate a shared synthetic user_default dataset. Do not treat demo operations) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 725 Td
+(  as a production multi-user demonstration. Auth account data and product records) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 712 Td
+(  live in different databases. This describes implementation, not a full security) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 699 Td
+(  audit; production needs HTTPS, secret management, deployment configuration review,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 686 Td
+(  monitoring, and security testing.) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 673 Td
+(The MaxxLoop Loop) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 643 Td
+(Stage 1 - Input and check-in) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 618 Td
+(  The user reports Focus, Energy, Stress on 1-5 sliders and may add a note. The web) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 605 Td
+(  client sends POST /checkins. CheckinCreate validates values. The safety scanner) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 592 Td
+(  runs before the normal save path; detected phrases return a crisis card and pause) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 579 Td
+(  processing.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 561 Td
+(Stage 2 - Signal processing and snapshot) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 536 Td
+(  For a normal check-in, the API stores three Signal rows with source self_report,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 523 Td
+(  queries the latest values for supported additional kinds, and calls BaselineEngine) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 510 Td
+(  and CapacityEngine. CapacitySnapshot stores score, baseline, delta, drivers JSON,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 497 Td
+(  drop flag, context, user ID, and timestamp. This is a server-side SQL record.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 479 Td
+(Stage 3 - Drivers and drop decision) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 454 Td
+(  DriverEngine turns contributions into labels and selects up to three.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 441 Td
+(  DropDetectionEngine evaluates configured absolute/rapid thresholds, cooldown and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 428 Td
+(  daily limits. The capacity result is an algorithmic estimate, not a clinical) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 415 Td
+(  measurement. If no eligible drop exists, the user still sees the capacity/status) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 402 Td
+(  without a new intervention.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 384 Td
+(Stage 4 - Recommendation and explanation) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 359 Td
+(  When eligible, RecommenderEngine filters the action library by driver overlap,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 346 Td
+(  initializes user/action Beta priors as needed, samples candidate values, and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 333 Td
+(  selects one action \(with a default 15% random-candidate exploration branch\). The) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 320 Td
+(  text layer builds a structured explanation using the user's selected provider or) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 307 Td
+(  template fallback. An Intervention stores) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 294 Td
+(  action/status/window/explanation/provider and exploration metadata.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 276 Td
+(Stage 5 - Action) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 251 Td
+(  The client shows the action and timer/steps. Start calls POST /loop/{id}/start;) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 238 Td
+(  skip calls /skip. These update status and create data later used for) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 225 Td
+(  measurement/control-window estimation. The standard window is configured for 25) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 212 Td
+(  minutes; demo timewarp can shorten waiting.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 194 Td
+(Stage 6 - Measurement) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 169 Td
+(  The user reports focus/energy/stress again via /measure. The API computes a new) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 156 Td
+(  score and stores signals/snapshot. MeasurementEngine calculates observed_delta =) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 143 Td
+(  post - pre, estimates no-action drift using subsequent snapshots after skipped) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 130 Td
+(  interventions \(blending a default prior when history is sparse\), and calculates) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 117 Td
+(  net_effect = observed_delta - expected_delta_no_action. It stores an Outcome and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 104 Td
+(  confidence category. This is observational self-report, not causal proof.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 86 Td
+(Stage 7 - Feedback and update) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 61 Td
+(  POST /feedback can attach helpfulness to the outcome. Measurement updates the) Tj
+ET
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 33 0 R >>
+endobj
+33 0 obj
+<< /Length 4799 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Recommender) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 14) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(  matching action prior: alpha increments when net effect >2; beta otherwise.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 725 Td
+(  Helpful boolean is recorded separately; it is not the criterion for this prior) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 712 Td
+(  update in current code.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 694 Td
+(Stage 8 - Insights and next loop) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 669 Td
+(  GET /insights aggregates saved outcomes, action use, helpfulness, driver) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 656 Td
+(  categories, time distribution, and trends. Later check-ins can use accumulated) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 643 Td
+(  history and priors. Sparse history uses population priors/fallback values. The) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 630 Td
+(  data model stores linked records, not a standalone Loop row.) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 612 Td
+(sequenceDiagram) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 600 Td
+(  actor User) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 588 Td
+(  participant Web as Next.js) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 576 Td
+(  participant API as FastAPI) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 564 Td
+(  participant Engine as Engines) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 552 Td
+(  participant SQL as SQLite/SQLModel) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 540 Td
+(  participant Mongo as MongoDB auth) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 528 Td
+(  User->>Web: Submit check-in) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 516 Td
+(  Web->>API: POST /checkins \(session cookie\)) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 504 Td
+(  API->>Mongo: Resolve account/session) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 492 Td
+(  API->>Engine: Score, baseline, drivers, drop) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 480 Td
+(  Engine->>SQL: Save signals and snapshot) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 468 Td
+(  API->>Engine: Select action and explain) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 456 Td
+(  Engine->>SQL: Save intervention/prior) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 444 Td
+(  API-->>Web: Capacity and optional action) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 432 Td
+(  User->>Web: Start/skip, then follow-up) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 420 Td
+(  Web->>API: /loop/{id}/measure and /feedback) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 408 Td
+(  API->>Engine: Calculate outcome/update prior) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 396 Td
+(  Engine->>SQL: Save outcome) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 384 Td
+(  Web->>API: GET /insights) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 372 Td
+(Recommendation Engine) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 342 Td
+(What it is) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 317 Td
+(  The recommender is a statistical selection mechanism over a curated JSON action) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 304 Td
+(  library. It is not a trained neural network or general-purpose AI model. The) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 291 Td
+(  language provider creates explanatory text and is separate from action selection.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 273 Td
+(Inputs and candidate filtering) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 248 Td
+(  The engine receives the user ID and top driver kinds from the capacity/check-in) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 235 Td
+(  path. It loads apps/api/app/data/actions.json \(24 action records in the current) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 222 Td
+(  file\). Candidate actions are those whose target_drivers overlap active drivers. If) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 209 Td
+(  no overlap exists, it falls back to selected general restorative categories.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 191 Td
+(Selection) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 166 Td
+(  Each \(user_id, action_id\) has an ActionPrior with alpha and beta. A new prior is) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 153 Td
+(  initialized from action prior_effect using total strength 4: alpha = effect x 4,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 140 Td
+(  beta = \(1-effect\) x 4. The engine samples theta ~ Beta\(alpha,beta\) per candidate) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 127 Td
+(  and usually selects the highest draw. With default probability 0.15 it chooses a) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 114 Td
+(  random candidate as exploration when there is more than one. This is Thompson-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 101 Td
+(  sampling-style selection with an explicit exploration branch.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 83 Td
+(Outcome update) Tj
+ET
+endstream
+endobj
+34 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 35 0 R >>
+endobj
+35 0 obj
+<< /Length 5119 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Security) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 15) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(  At measurement, the engine calculates observed post-minus-pre score, subtracts) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 725 Td
+(  estimated no-action drift, and labels confidence from sample count/variance. If) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 712 Td
+(  net effect is greater than 2 points, alpha increments; otherwise beta increments.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 699 Td
+(  User helpfulness is separately recorded. The current code's prior update is based) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 686 Td
+(  on net effect threshold, not solely on the explicit helpful/not-helpful boolean.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 668 Td
+(Interpretation and limits) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 643 Td
+(  Self-report changes, estimated drift, action selection, and prior updates are not) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 630 Td
+(  randomized evidence. A positive net score does not prove the action caused) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 617 Td
+(  improvement. Synthetic simulation is not a user study. No validated ML model,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 604 Td
+(  online training infrastructure, or causal inference design is implemented.) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 591 Td
+(Insights) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 561 Td
+(  GET /insights builds a response from stored snapshots, interventions, outcomes,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 548 Td
+(  and drivers for the authenticated user \(or demo profile when explicitly selected\).) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 530 Td
+(  The response schema includes:) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 512 Td
+(  - total_loops_closed and current_streak) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 499 Td
+(  - pct_helpful from recorded helpfulness responses) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 486 Td
+(  - avg_score_improvement based on stored measurement outcomes) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 473 Td
+(  - top_actions with action ID/title/category, use count, mean net effect, interval) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 460 Td
+(    bounds, and helpful ratio) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 447 Td
+(  - recurring drivers, time-of-day distribution, weekly trend) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 429 Td
+(  These are descriptive aggregates of available records. A stored net_effect) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 416 Td
+(  subtracts an estimated no-action drift; it is not a measured causal treatment) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 403 Td
+(  effect. Action confidence labels/interval calculations should be interpreted as) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 390 Td
+(  prototype estimates. Sparse data can produce empty or low-information results.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 377 Td
+(  Demo seed data includes synthetic records and should be labeled accordingly.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 359 Td
+(  The frontend's /insights page renders the API response and charts/components.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 346 Td
+(  /history calls the signals endpoint with a limit. Exact charts and empty-state) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 333 Td
+(  copy should be read from the current route files.) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 320 Td
+(Security) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 290 Td
+(  This document records observable implementation safeguards and gaps; it is not a) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 277 Td
+(  security certification.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 259 Td
+(Implemented) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 234 Td
+(  - Argon2 password hashing; plaintext passwords are not persisted by the auth) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 221 Td
+(    helper.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 208 Td
+(  - Random opaque session token; Mongo stores its SHA-256 hash, with expiry and per-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 195 Td
+(    user indexes.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 182 Td
+(  - HTTP-only, SameSite=Lax cookie, seven-day max age; Secure set outside local/test) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 169 Td
+(    environments.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 156 Td
+(  - Protected API dependencies resolve sessions and use authenticated user IDs for) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 143 Td
+(    product queries.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 130 Td
+(  - Pydantic validates key request fields and numeric ranges.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 117 Td
+(  - Unique normalized email index; duplicate account returns 409.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 104 Td
+(  - LLM provider output is parsed into a schema and checked against banned) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 91 Td
+(    phrases/driver consistency; provider exceptions fall back to template.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 73 Td
+(Configuration and limits) Tj
+ET
+endstream
+endobj
+36 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 37 0 R >>
+endobj
+37 0 obj
+<< /Length 5463 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Testing) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 16) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 738 Td
+(  - CORS currently allows only localhost:3000 and 127.0.0.1:3000, with credentials.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 725 Td
+(    Production origins need explicit configuration/code review.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 712 Td
+(  - No rate limiting, account lockout, password reset, email verification, or) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 699 Td
+(    account deletion endpoint was found in the inspected implementation.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 686 Td
+(  - CSRF protections beyond SameSite cookie behavior were not identified. Production) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 673 Td
+(    cookie/domain/CORS and CSRF threat model require review.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 660 Td
+(  - Do not expose .env, API keys, MongoDB credentials, or user exports. Keep secrets) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 647 Td
+(    in the deployment's secret manager.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 634 Td
+(  - SQL migrations, security monitoring, backup encryption, vulnerability scanning,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 621 Td
+(    and external security audit are not established by repository code.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 608 Td
+(  - The shared demo profile has destructive reset behavior; keep demo operations) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 595 Td
+(    away from production data.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 577 Td
+(Production checklist) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 552 Td
+(  Use HTTPS, restrict CORS to the real frontend origin, use managed secret storage) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 539 Td
+(  and private database networking, configure durable backups and access controls,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 526 Td
+(  review authentication/session/CSRF/rate-limit behavior, and verify) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 513 Td
+(  deletion/retention requirements before public use.) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 500 Td
+(Privacy and Data Handling) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 470 Td
+(Data currently handled) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 445 Td
+(  - Account name/email, password hash, and session records are stored in MongoDB.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 432 Td
+(  - Product profile preferences, numeric signals, capacity snapshots, driver labels,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 419 Td
+(    intervention/action status, outcomes, and optional measurement note are stored) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 406 Td
+(    in the API's SQL database \(SQLite by default\).) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 393 Td
+(  - Check-in note text is scanned for configured crisis phrases before the standard) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 380 Td
+(    check-in persistence path. On a detected phrase, that route returns a crisis) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 367 Td
+(    card without saving the check-in note/signals. This is limited phrase matching,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 354 Td
+(    not comprehensive detection.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 341 Td
+(  - The default template provider is deterministic and requires no third-party call.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 328 Td
+(    Optional providers can send structured score/baseline/driver/action data to) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 315 Td
+(    configured model services. Provider-specific data flows must be disclosed when) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 302 Td
+(    enabled.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 284 Td
+(Consent and user controls) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 259 Td
+(  Profile fields include calendar/browser/LLM consent flags; signal ingestion skips) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 246 Td
+(  calendar/browser source data when their consent is false. /privacy/consent changes) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 233 Td
+(  those fields and the selected provider. The UI/API provide payload inspection,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 220 Td
+(  data export, and product-data deletion. Deletion retains account/session) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 207 Td
+(  infrastructure and SQL profile while deleting product records and disabling) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 194 Td
+(  consent flags.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 176 Td
+(  The LLM payload inspector is process-memory state, not a durable per-user audit) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 163 Td
+(  log. Its exclusion list is application metadata; do not interpret it as an) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 150 Td
+(  independent network inspection or guarantee.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 132 Td
+(Accurate claims) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 107 Td
+(  Activity data is not device-only: it is persisted by the backend. Do not claim) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 94 Td
+(  zero-knowledge, GDPR/DPDP compliance, or that no information leaves the server. No) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 81 Td
+(  privacy certification/legal review is documented. Production operators must define) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 68 Td
+(  retention, backups, access, and deletion behavior for both Mongo and SQL stores.) Tj
+ET
+endstream
+endobj
+38 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 39 0 R >>
+endobj
+39 0 obj
+<< /Length 4049 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Development) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 17) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 738 Td
+(Testing) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 708 Td
+(Existing automated backend tests) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 683 Td
+(  The repository contains pytest modules:) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 665 Td
+(  - test_auth.py - authentication behavior) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 652 Td
+(  - test_e2e_loop.py - end-to-end API loop behavior) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 639 Td
+(  - test_engine.py - capacity/baseline/driver engine behavior) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 626 Td
+(  - test_measurement.py - outcome measurement behavior) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 613 Td
+(  - test_recommender.py - action selection behavior) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 600 Td
+(  - test_safety.py - safety phrase behavior) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 582 Td
+(  Run from apps/api:) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 564 Td
+(pytest -v tests/) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 547 Td
+(  or from the repository root: make test.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 529 Td
+(Frontend checks) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 504 Td
+(  The web package scripts are dev, build, start, and lint. It declares a Next build) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 491 Td
+(  and a lint script \(next lint\); verify the lint command against the installed Next) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 478 Td
+(  version because script compatibility can change. TypeScript is configured with) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 465 Td
+(  tsconfig.json, but no dedicated test runner script or browser automation) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 452 Td
+(  configuration was found in the inspected files.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 434 Td
+(Coverage boundaries) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 409 Td
+(  No frontend unit test, browser automation, or responsive visual regression) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 396 Td
+(  configuration was found. Backend tests do not alone demonstrate production) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 383 Td
+(  database behavior, accessibility, or cross-browser responsiveness.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 365 Td
+(  Tests were not executed during documentation generation. This documentation change) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 352 Td
+(  has not been verified by running the app/build/test suites.) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 339 Td
+(Local Development) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 309 Td
+(Prerequisites) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 284 Td
+(  - Git) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 271 Td
+(  - Node.js and npm \(lockfile is apps/web/package-lock.json\)) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 258 Td
+(  - Python 3.11 or newer and pip) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 245 Td
+(  - MongoDB running/reachable for signup, login, and protected authenticated) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 232 Td
+(    requests) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 214 Td
+(  SQLite is the default product database and is created by SQLModel on API startup.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 201 Td
+(  No separate SQLite server is required.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 183 Td
+(Clone and configure) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 158 Td
+(git clone https://github.com/Kingtheblaze/MaxxLOOP.git) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 146 Td
+(cd MaxxLOOP) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 129 Td
+(  Create backend environment file from .env.example at apps/api/.env; edit Mongo URI) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 116 Td
+(  if needed. Do not commit real credentials. The settings loader reads .env relative) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 103 Td
+(  to the current process directory, so run the API from apps/api.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 85 Td
+(Install) Tj
+ET
+endstream
+endobj
+40 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 41 0 R >>
+endobj
+41 0 obj
+<< /Length 4829 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Environment) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 18) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(  PowerShell:) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 720 Td
+(cd apps/api) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 708 Td
+(python -m venv .venv) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 696 Td
+(.\\.venv\\Scripts\\Activate.ps1) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 684 Td
+(python -m pip install -r requirements.txt) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 672 Td
+(Copy-Item ..\\..\\.env.example .env) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 655 Td
+(  Bash equivalent for venv activation: source .venv/bin/activate. Then install web) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 642 Td
+(  dependencies:) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 624 Td
+(cd apps/web) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 612 Td
+(npm ci) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 595 Td
+(Run in two terminals) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 570 Td
+(  Terminal 1, from apps/api with the virtual environment active:) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 552 Td
+(uvicorn app.main:app --reload --port 8000) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 535 Td
+(  Terminal 2, from apps/web:) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 517 Td
+(npm run dev) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 500 Td
+(  Open http://localhost:3000. API docs: http://localhost:8000/docs; health:) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 487 Td
+(  http://localhost:8000/health. Authentication requires MongoDB; the health route) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 474 Td
+(  does not check Mongo readiness.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 456 Td
+(Other commands) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 431 Td
+(  - Backend tests: cd apps/api && pytest -v tests/.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 418 Td
+(  - Web production build: cd apps/web && npm run build.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 405 Td
+(  - Docker Compose: docker compose up --build; see [Deployment] because Compose) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 392 Td
+(    currently omits MongoDB and has container URL caveats.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 379 Td
+(  - make dev prints instructions; it does not run two servers concurrently.) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 366 Td
+(Environment Variables) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 336 Td
+(  Backend settings are defined in apps/api/app/core/config.py; .env.example is the) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 323 Td
+(  safe template. Never copy real secrets into documentation or source control.) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 305 Td
+( |  Variable  |  Required?  |  Default/example  |  Purpose  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 292 Td
+( |  ---  |  ---  |  ---  |  ---  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 279 Td
+( |  APP_ENV  |  No  |  development  |  Cookie Secure behavior and environment label.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 266 Td
+( |  PORT  |  No  |  8000  |  Settings value; documented Uvicorn command explicitly) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 253 Td
+(supplies port.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 240 Td
+( |  DEBUG  |  No  |  true  |  Settings flag; inspect consumers before relying on) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 227 Td
+(behavior.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 214 Td
+( |  DATABASE_URL  |  No  |  sqlite:///./maxxloop.db  |  SQLModel product database.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 201 Td
+( |  MONGODB_URI  |  Required for auth use  |  mongodb://localhost:27017/  |  Mongo) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 188 Td
+(connection string; treat as secret if credentials included.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 175 Td
+( |  MONGODB_DATABASE  |  No  |  maxxloop  |  Mongo database name.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 162 Td
+( |  SESSION_COOKIE_NAME  |  No  |  maxxloop_session  |  Session cookie key.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 149 Td
+( |  LLM_PROVIDER  |  No  |  template  |  template, gemini, ollama, or openai;) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 136 Td
+(unavailable/keyless providers fall back to templates.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 123 Td
+( |  GEMINI_API_KEY  |  Only for Gemini  |  unset  |  Gemini credential.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 110 Td
+( |  OLLAMA_BASE_URL  |  Only for Ollama  |  http://localhost:11434  |  Ollama service) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 97 Td
+(endpoint.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 84 Td
+( |  OLLAMA_MODEL  |  Only for Ollama  |  llama3.2  |  Ollama model identifier.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 71 Td
+( |  OPENAI_API_KEY  |  Only for OpenAI-compatible  |  unset  |  Provider credential.  |) Tj
+ET
+endstream
+endobj
+42 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 43 0 R >>
+endobj
+43 0 obj
+<< /Length 5500 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Deployment) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 19) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+( |  OPENAI_BASE_URL  |  No  |  https://api.openai.com/v1  |  Compatible API base URL.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 725 Td
+( |  OPENAI_MODEL  |  No  |  gpt-4o-mini  |  Requested model identifier.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 712 Td
+( |  DEMO_MODE  |  No  |  true  |  Demo status/config flag.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 699 Td
+( |  TIMEWARP_SECONDS  |  No  |  20  |  Demo timewarp duration.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 686 Td
+( |  STANDARD_WINDOW_MINUTES  |  No  |  25  |  Standard action measurement window.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 673 Td
+( |  DROP_THRESHOLD_POINTS  |  No  |  10.0  |  Drop threshold setting.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 660 Td
+( |  RAPID_DROP_POINTS  |  No  |  15.0  |  Rapid drop setting.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 647 Td
+( |  MIN_COOLDOWN_MINUTES  |  No  |  45  |  Intervention cooldown setting.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 634 Td
+( |  MAX_INTERVENTIONS_PER_DAY  |  No  |  3  |  Daily intervention cap.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 621 Td
+( |  NEXT_PUBLIC_API_URL  |  No  |  http://localhost:8000  |  Frontend browser API base,) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 608 Td
+(set in web environment.  |) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 590 Td
+(  Backend variables are loaded by Pydantic settings. The web client in) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 577 Td
+(  apps/web/src/lib/api.ts reads NEXT_PUBLIC_API_URL at build/runtime according to) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 564 Td
+(  Next.js public env behavior. Do not set public variables to credentials.) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 551 Td
+(Deployment) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 521 Td
+(Current repository configuration) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 496 Td
+(  An API Dockerfile and docker-compose.yml are present. The Compose file exposes API) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 483 Td
+(  port 8000 and web port 3000, uses SQLite and template provider defaults, and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 470 Td
+(  mounts an API data volume. It does not define MongoDB even though auth requires) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 457 Td
+(  MongoDB. The web container sets NEXT_PUBLIC_API_URL=http://localhost:8000; inside) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 444 Td
+(  a browser this means the user's machine, and inside containers service DNS) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 431 Td
+(  differs. The Next rewrite is also hard-coded to localhost:8000. Therefore do not) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 418 Td
+(  assume the supplied Compose file is a working public deployment without testing) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 405 Td
+(  and configuration changes.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 387 Td
+(  No verified Vercel/Render/Atlas deployment or provider manifest was found in the) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 374 Td
+(  repository inventory. This document gives deployment requirements, not a claim) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 361 Td
+(  deployment exists.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 343 Td
+(Production requirements) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 318 Td
+(  1. Deploy the web app and API to reachable HTTPS origins.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 305 Td
+(  2. Provide MongoDB reachable only by the API; configure MONGODB_URI and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 292 Td
+(  MONGODB_DATABASE using a secret store.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 279 Td
+(  3. Configure DATABASE_URL for durable product data or mount the SQLite file on a) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 266 Td
+(  persistent volume. SQLite on ephemeral serverless filesystems is not durable.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 253 Td
+(  4. Set APP_ENV=production so auth cookies use Secure; use HTTPS and configure) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 240 Td
+(  correct cookie domain/SameSite behavior for the chosen topology.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 227 Td
+(  5. Set the frontend API URL to the public API origin. Update API CORS allowlist to) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 214 Td
+(  the exact frontend origin and verify credentialed cookie behavior.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 201 Td
+(  6. Configure LLM provider credentials only if using that provider; review data) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 188 Td
+(  disclosures/consent.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 175 Td
+(  7. Configure backups, logs/monitoring, database access, privacy retention, and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 162 Td
+(  deletion procedures.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 144 Td
+(Build/run references) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 119 Td
+(  - Web: cd apps/web && npm ci && npm run build; serving: npm run start \(package) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 106 Td
+(    script binds port 3000\).) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 93 Td
+(  - API: install apps/api/requirements.txt; start with uvicorn app.main:app --host) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 80 Td
+(    0.0.0.0 --port 8000.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 67 Td
+(  - API Docker image: build from apps/api context using its Dockerfile.) Tj
+ET
+endstream
+endobj
+44 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 45 0 R >>
+endobj
+45 0 obj
+<< /Length 4444 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Troubleshooting) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 20) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(  Do not publish until the production URL, auth cookies, CORS, Mongo connectivity,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 725 Td
+(  durable SQL storage, and data isolation are verified in the target hosting) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 712 Td
+(  environment.) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 699 Td
+(Troubleshooting) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 669 Td
+(Frontend cannot connect to API) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 644 Td
+(  Check the API is listening on the URL in NEXT_PUBLIC_API_URL \(default) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 631 Td
+(  http://localhost:8000\) and /health responds. Browser CORS currently allows only) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 618 Td
+(  localhost:3000 and 127.0.0.1:3000. Restart Next after changing environment) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 605 Td
+(  variables. The API wrapper calls the configured base directly.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 587 Td
+(MongoDB connection failure / auth unavailable) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 562 Td
+(  Start MongoDB, confirm MONGODB_URI/MONGODB_DATABASE in apps/api/.env, then restart) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 549 Td
+(  Uvicorn from apps/api. Auth routes connect lazily and return 503 when Mongo is) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 536 Td
+(  unavailable; /health can still report healthy because it does not ping Mongo.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 518 Td
+(CORS or session cookie issue) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 493 Td
+(  Use matching localhost hostnames \(avoid mixing localhost and 127.0.0.1 without) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 480 Td
+(  considering cookie origin\). For a remote frontend, update the API CORS allowlist) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 467 Td
+(  in main.py, keep credentials enabled, use HTTPS in production, and verify cookie) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 454 Td
+(  Secure/SameSite/domain settings.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 436 Td
+(Invalid login / duplicate account) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 411 Td
+(  Emails are normalized to lowercase. Signup with an existing email returns 409.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 398 Td
+(  Login returns the same 401 for missing email and wrong password. Password minimum) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 385 Td
+(  on signup is 8 characters.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 367 Td
+(API 401) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 342 Td
+(  The session cookie may be missing, expired, or invalid. Sign in again and verify) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 329 Td
+(  browser requests include credentials. Protected API routes require a valid) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 316 Td
+(  session.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 298 Td
+(API 422 / 500) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 273 Td
+(  422 usually means a request body or query argument does not match the Pydantic) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 260 Td
+(  schema/range; check /docs. For 500, inspect Uvicorn logs and database) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 247 Td
+(  availability. Avoid sharing logs containing personal data or secrets.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 229 Td
+(Environment variable appears ignored) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 204 Td
+(  The backend reads .env relative to process working directory; run Uvicorn from) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 191 Td
+(  apps/api. Restart server after edits. NEXT_PUBLIC_API_URL is read by the Next app;) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 178 Td
+(  restart/rebuild as needed.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 160 Td
+(Port already in use) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 135 Td
+(  Choose a free API port and keep frontend URL, Next rewrite, and CORS configuration) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 122 Td
+(  aligned. Current defaults are 8000 and 3000. Do not assume changing Uvicorn's port) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 109 Td
+(  updates the frontend automatically.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 91 Td
+(Production build failure) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 66 Td
+(  Run npm ci then npm run build in apps/web; read the first compiler error and) Tj
+ET
+endstream
+endobj
+46 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 47 0 R >>
+endobj
+47 0 obj
+<< /Length 4982 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Hackathon Guide) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 21) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(  confirm compatible Node.js. For API import/dependency errors, activate the) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 725 Td
+(  intended Python environment and install requirements.txt. Build/test status should) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 712 Td
+(  be reported only after actually running commands.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 694 Td
+(Docker auth does not work) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 669 Td
+(  The supplied Compose file has no MongoDB service. Its API container cannot reach) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 656 Td
+(  host Mongo at localhost as though it were inside the host. Configure a reachable) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 643 Td
+(  Mongo service/URI and review inter-container web/API addresses before using) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 630 Td
+(  Compose.) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 617 Td
+(MaxxLoop Hackathon Guide) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 587 Td
+(  This is the current, implementation-grounded guide to explaining and demonstrating) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 574 Td
+(  MaxxLoop. Use this document over older pitch notes when they make stronger claims) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 561 Td
+(  than the running code supports. In particular, do not describe MaxxLoop as a) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 548 Td
+(  doctor, clinically validated, zero-knowledge, or already deployed to production.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 530 Td
+(1. MaxxLoop in one sentence) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 505 Td
+(  MaxxLoop helps students and knowledge workers notice when their focus and energy) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 492 Td
+(  are slipping, choose one small recovery action, and check whether it helped them) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 479 Td
+(  personally.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 461 Td
+(  The product loop is Track -> Understand -> Act -> Measure -> Improve. The main) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 448 Td
+(  idea is to make a wellness check-in lead to a useful next step and a follow-up) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 435 Td
+(  measurement, instead of stopping at a chart or a generic list of advice.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 417 Td
+(30-second pitch) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 394 Td
+(  "Students and knowledge workers often realize they are overloaded only after their) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 381 Td
+(  focus has already dropped. Most tools show historical charts or offer generic) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 368 Td
+(  tips. MaxxLoop uses lightweight self-reported signals to estimate a person's) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 355 Td
+(  current capacity against their own recent baseline. It explains the main) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 342 Td
+(  contributors, suggests one small action, and asks for a follow-up check-in to) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 329 Td
+(  learn what seems helpful for that person. It is a wellness-support prototype, not) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 316 Td
+(  a medical device or a substitute for professional care.") Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 298 Td
+(2. Problem, users, and solution) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 273 Td
+(The problem) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 250 Td
+(  People have limited attention and energy, especially during study or demanding) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 237 Td
+(  work. A dashboard may show a low score without telling someone what to do next. A) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 224 Td
+(  long list of wellness tips can also make a tired person choose among too many) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 211 Td
+(  options. There is room for a simple experience that connects a check-in, an) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 198 Td
+(  understandable explanation, one action, and a follow-up.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 180 Td
+(Who it is for) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 157 Td
+(  The initial audience is students and knowledge workers who want lightweight) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 144 Td
+(  support for focus and recovery. The current product does not diagnose burnout,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 131 Td
+(  anxiety, depression, ADHD, or any other condition.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 113 Td
+(What the app does today) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 90 Td
+(  1. The user signs in and completes a short check-in for focus, energy, and stress,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 77 Td
+(  with an optional note.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 64 Td
+(  2. The API compares recent signals with the user's available baseline and) Tj
+ET
+endstream
+endobj
+48 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 49 0 R >>
+endobj
+49 0 obj
+<< /Length 5515 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Hackathon Guide) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 22) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 738 Td
+(  estimates a capacity score.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 725 Td
+(  3. The app presents contributing factors in plain language and recommends a single) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 712 Td
+(  small action.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 699 Td
+(  4. The user can start or skip the action, then record another check-in after the) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 686 Td
+(  action window.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 673 Td
+(  5. The user can say whether the action felt helpful. The app records the outcome) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 660 Td
+(  and uses past results to inform later recommendations.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 647 Td
+(  6. Insights and history show the user's recorded activity and outcomes.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 629 Td
+(  The current demo also has seeded personas and controls to create a sample capacity) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 616 Td
+(  drop or advance a measurement window. Demo data is illustrative and may not) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 603 Td
+(  produce identical scores every time.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 585 Td
+(3. What makes it different) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 560 Td
+(  Describe this as MaxxLoop's product distinction, not as a claim that no other) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 547 Td
+(  product does something similar:) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 529 Td
+(  - It closes the loop. The experience connects a check-in to an action and a later) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 516 Td
+(    measurement, instead of only collecting data or displaying a trend.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 503 Td
+(  - It starts with the individual's baseline. When enough history exists, the) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 490 Td
+(    scoring logic compares signals with that user's own recent pattern; sparse) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 477 Td
+(    history uses prior values until more observations exist.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 464 Td
+(  - It gives one next action. The product aims to reduce decision effort when the) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 451 Td
+(    user reports low capacity.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 438 Td
+(  - It makes the reasoning inspectable. The app can show contributing signal) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 425 Td
+(    categories and recommendation context rather than presenting a mysterious score) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 412 Td
+(    alone.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 399 Td
+(  - It learns from feedback. A lightweight Beta/Thompson-sampling recommender) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 386 Td
+(    balances actions that have worked in prior observations with some exploration.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 373 Td
+(    This is an engineering approach in a prototype, not clinical proof that an) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 360 Td
+(    action works.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 347 Td
+(  - It has a safety interruption. Certain crisis-related phrases in check-in notes) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 334 Td
+(    are intercepted and routed toward support information before the usual) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 321 Td
+(    recommendation flow. This keyword scanner is limited and cannot guarantee that a) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 308 Td
+(    crisis is detected.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 290 Td
+(Simple comparison for judges) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 267 Td
+( |  Typical experience  |  MaxxLoop's intended contribution  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 254 Td
+( |  ---  |  ---  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 241 Td
+( |  A chart reports a trend  |  A check-in leads to an explanation and a next step  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 228 Td
+( |  A list shows many tips  |  The app offers one small action at a time  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 215 Td
+( |  Advice is not followed up  |  A later check-in records the user's observed response) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 202 Td
+(|) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 189 Td
+( |  Generic suggestions  |  Recommendations can adapt to the user's recorded feedback  |) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 171 Td
+(  Avoid naming competitors or saying "first," "only," "proven," or "guaranteed") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 158 Td
+(  unless you have independent evidence.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 140 Td
+(4. Fit with the hackathon) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 115 Td
+(  The official ASYNC'26 Wellness & Lifestyle problem statement calls for turning) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 102 Td
+(  everyday signals into understanding and improvement, and describes a flow of Track) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 89 Td
+(  -> Understand -> Act -> Measure -> Improve. That aligns closely with MaxxLoop's) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 76 Td
+(  product loop. The published idea-deck guidance asks for the project/team, track,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 63 Td
+(  problem, idea, solution, technical architecture/workflow, technologies, and) Tj
+ET
+endstream
+endobj
+50 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 51 0 R >>
+endobj
+51 0 obj
+<< /Length 5179 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Hackathon Guide) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 23) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(  differentiator. Its published idea-stage scoring weights are technical) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 725 Td
+(  execution/architecture 30%, innovation 20%, impact 20%, product) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 712 Td
+(  experience/usability 15%, and demo/completeness 15%.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 694 Td
+(  The event page also lists the final build period as September 30-October 1, 2026.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 681 Td
+(  Treat the published weights as the rubric on that page; do not assume they) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 668 Td
+(  necessarily constitute a separate final-round judging rubric unless the organizers) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 655 Td
+(  say so.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 637 Td
+(  Sources: [ASYNC'26 problem statements and idea-deck criteria] ∑ [ASYNC'26 rules]) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 619 Td
+(How to map your explanation to the published criteria) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 596 Td
+(  - Technical execution / architecture: show the real frontend-to-API flow, auth) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 583 Td
+(    boundary, scoring, recommendation, and measurement.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 570 Td
+(  - Innovation: explain the complete personal feedback loop and one-action) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 557 Td
+(    experience. Frame it as your design contribution, not a universal first.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 544 Td
+(  - Impact: explain the focused initial audience and why a timely, small action) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 531 Td
+(    could help. Present this as a hypothesis to validate with users.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 518 Td
+(  - Product experience: demonstrate a concise check-in, understandable explanation,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 505 Td
+(    one recommendation, and follow-up.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 492 Td
+(  - Demo / completeness: finish one full loop and show its record in history or) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 479 Td
+(    insights. Be transparent about seeded demo controls and the limits of the) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 466 Td
+(    current evidence.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 448 Td
+(5. Technical overview) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 423 Td
+(Stack) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 400 Td
+(  - Web: Next.js App Router, React, TypeScript, Tailwind CSS, Recharts, and Lucide) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 387 Td
+(    icons.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 374 Td
+(  - API: Python FastAPI, Pydantic, SQLModel/SQLAlchemy.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 361 Td
+(  - Product records: SQLite stores signals, check-ins, capacity snapshots,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 348 Td
+(    interventions, outcomes, and related consent/profile data through the configured) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 335 Td
+(    DATABASE_URL \(local default: sqlite:///./maxxloop.db\).) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 322 Td
+(  - Authentication: MongoDB stores account and server-side session records,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 309 Td
+(    configured with MONGODB_URI and MONGODB_DATABASE. In the local setup, the URI) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 296 Td
+(    points to the developer's MongoDB service. Do not publish connection strings or) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 283 Td
+(    credentials.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 270 Td
+(  - Language layer: a deterministic template provider works without an external API) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 257 Td
+(    key. Optional provider integrations exist in the code; do not claim a remote) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 244 Td
+(    model is active unless you have configured and verified it for the demo.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 226 Td
+(Architecture at a glance) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 203 Td
+(Browser \(Next.js / React\)) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 191 Td
+(       ? HTTP requests, session cookie) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 179 Td
+(       ?) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 167 Td
+(FastAPI application) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 155 Td
+(  ??? Authentication and session checks ?? MongoDB) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 143 Td
+(  ??? Check-ins, scoring, loops, insights ?? SQLite) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 131 Td
+(  ??? Recommendation and measurement logic) Tj
+ET
+BT
+/F3 8.5 Tf
+0.10 0.12 0.16 rg
+54 119 Td
+(  ??? Optional language provider \(template by default\)) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 102 Td
+(Main request flow) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 79 Td
+(  1. The browser sends a request to the FastAPI service; the frontend's API URL is) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 66 Td
+(  controlled by its configuration/environment.) Tj
+ET
+endstream
+endobj
+52 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 53 0 R >>
+endobj
+53 0 obj
+<< /Length 5526 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Hackathon Guide) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 24) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 738 Td
+(  2. Protected API routes resolve the authenticated user from the session cookie.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 725 Td
+(  3. User-owned product records are read or written with that user identity in) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 712 Td
+(  scope.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 699 Td
+(  4. The check-in is evaluated, a capacity estimate and contributing factors are) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 686 Td
+(  computed, and a candidate action is selected.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 673 Td
+(  5. Starting/skipping, measuring, and helpfulness feedback update the loop record) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 660 Td
+(  and recommendation history.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 647 Td
+(  6. Insights and history read back the user's stored records.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 629 Td
+(  The repository includes endpoints grouped around /health, /auth/*, /signals,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 616 Td
+(  /checkins, /capacity/now, /loop/*, /insights, /privacy/*, and /demo/*. The API) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 603 Td
+(  docs and route implementation are the source of truth for request schemas.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 585 Td
+(How to explain the scoring) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 562 Td
+(  Use a simple explanation first: "The score is an estimate of current capacity) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 549 Td
+(  relative to recent patterns, not a medical measurement.") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 531 Td
+(  For a technical judge:) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 513 Td
+(  - The system uses recent personal history where enough observations exist and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 500 Td
+(    falls back or blends with broader prior values where history is sparse.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 487 Td
+(  - It uses robust statistics \(including a median and median absolute deviation\) to) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 474 Td
+(    reduce the influence of unusual observations.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 461 Td
+(  - Available signals are standardized, direction-adjusted where needed, weighted,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 448 Td
+(    and combined into a bounded 0-100 estimate. A score near 50 is the reference) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 435 Td
+(    point in this scoring scheme, not a population norm or clinical threshold.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 422 Td
+(  - A drop may open a recommendation loop. Cooldowns and daily limits constrain) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 409 Td
+(    repeated interventions.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 391 Td
+(  Do not call this a clinically validated biomarker or say a score diagnoses a) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 378 Td
+(  person's state.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 360 Td
+(How to explain personalization) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 337 Td
+(  "We keep lightweight success/failure evidence for actions and use Thompson) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 324 Td
+(  sampling over Beta distributions to choose between actions with promising history) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 311 Td
+(  and some exploration. It is a way to personalize recommendations from observed app) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 298 Td
+(  feedback. Our current simulation is synthetic, so we still need real-user) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 285 Td
+(  evaluation before making effectiveness claims.") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 267 Td
+(  The measurement compares the user's before and after self-report and estimates) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 254 Td
+(  expected no-action drift from prior control-like windows. Some values fall back to) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 241 Td
+(  a prior when there is little history. This is not a randomized controlled trial) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 228 Td
+(  and does not establish that the action caused the change.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 210 Td
+(6. Privacy, authentication, and data) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 185 Td
+(  Be precise about where information currently lives:) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 167 Td
+(  - MongoDB is used for authentication accounts and sessions.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 154 Td
+(  - SQLite is used by the API for product activity and recommendation records. In a) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 141 Td
+(    deployed setup, that would be server-side storage with a persistent volume; it) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 128 Td
+(    is not device-only storage.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 115 Td
+(  - Passwords are stored as password hashes, not plaintext. Session cookies are) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 102 Td
+(    HTTP-only; server-side session tokens are stored in hashed form.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 89 Td
+(  - The privacy UI includes consent, export, and deletion-related controls. Explain) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 76 Td
+(    what these do only after confirming the current deployed environment and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 63 Td
+(    retention behavior.) Tj
+ET
+endstream
+endobj
+54 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 55 0 R >>
+endobj
+55 0 obj
+<< /Length 5661 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Hackathon Guide) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 25) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 738 Td
+(  - The default language provider is a local deterministic template implementation.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 725 Td
+(    If an external LLM provider is enabled, explain its configured data flow and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 712 Td
+(    consent accurately. Do not promise that no information ever leaves the device.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 699 Td
+(  - The app's optional note is sensitive. The safety scanner intercepts recognized) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 686 Td
+(    crisis phrases before the normal flow; the scanner is not a complete safety) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 673 Td
+(    monitor.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 655 Td
+(  Do not repeat older repository pitch claims that MaxxLoop is "zero-knowledge,") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 642 Td
+(  that all data stays on the user's device, or that the app is GDPR/DPDP compliant.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 629 Td
+(  Those are not established by the current architecture or this guide. Also do not) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 616 Td
+(  expose .env contents, passwords, MongoDB credentials, or real user records during) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 603 Td
+(  a demo.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 585 Td
+(7. The doctor / clinical part) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 560 Td
+(  There is no doctor or clinician built into the current product, and no clinical) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 547 Td
+(  review or validation is established by the current project materials. MaxxLoop is) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 534 Td
+(  a non-medical focus and wellness-support prototype. It does not diagnose, treat,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 521 Td
+(  prescribe, or replace a clinician.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 503 Td
+(  The responsible answer to "What does the doctor do?" is:) Tj
+ET
+BT
+/F1 9.5 Tf
+0.24 0.30 0.36 rg
+62 485 Td
+(  "A doctor is not part of the current product, and we are not presenting this as) Tj
+ET
+BT
+/F1 9.5 Tf
+0.24 0.30 0.36 rg
+62 472 Td
+(  medical care. The current safety behavior is a limited phrase-based interruption) Tj
+ET
+BT
+/F1 9.5 Tf
+0.24 0.30 0.36 rg
+62 459 Td
+(  that displays support resources. Before using this with real users at scale, we) Tj
+ET
+BT
+/F1 9.5 Tf
+0.24 0.30 0.36 rg
+62 446 Td
+(  would want qualified mental-health professionals to review the language, low-risk) Tj
+ET
+BT
+/F1 9.5 Tf
+0.24 0.30 0.36 rg
+62 433 Td
+(  action library, escalation flow, and evaluation plan.") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 415 Td
+(  If someone may be in immediate danger, direct them to local emergency services or) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 402 Td
+(  a trusted person. For India, the Ministry of Health and Family Welfare lists Tele-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 389 Td
+(  MANAS at 14416 and 1-800-891-4416. Confirm current availability and local) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 376 Td
+(  resources before presenting them as live support. [National Mental Health) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 363 Td
+(  Programme / Tele-MANAS]) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 345 Td
+(  Do not say keyword detection is reliable, that it prevents suicide, or that the) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 332 Td
+(  app monitors a user continuously.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 314 Td
+(8. Live demo walkthrough) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 289 Td
+(  Run the app from the repository configuration and verify both services are healthy) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 276 Td
+(  before presenting. Use your actual configured frontend/API URLs; do not hard-code) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 263 Td
+(  a port in a slide unless you checked it on that machine.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 245 Td
+(  Recommended route sequence:) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 227 Td
+(  1. Home \(/\) - explain the user problem and the single-loop promise.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 214 Td
+(  2. Sign in / sign up - show the account boundary only with a demo account; never) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 201 Td
+(  put real credentials on screen.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 188 Td
+(  3. Dashboard - complete Focus, Energy, and Stress check-in. Explain the score and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 175 Td
+(  drivers as estimates.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 162 Td
+(  4. Recommendation - explain why one action was selected. Start or skip it.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 149 Td
+(  5. Measurement - complete the follow-up and helpfulness feedback. Point out the) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 136 Td
+(  observed change and explain the no-action estimate cautiously.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 123 Td
+(  6. History / Insights \(/history, /insights\) - show that the loop was recorded and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 110 Td
+(  how prior user feedback informs later choices.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 97 Td
+(  7. Privacy \(/privacy\) - describe the controls and actual storage split honestly.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 84 Td
+(  8. Demo \(/demo\) - optional: use seeded personas and time controls to make a) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 71 Td
+(  repeatable short presentation. Clearly say the personas are demo data.) Tj
+ET
+endstream
+endobj
+56 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 57 0 R >>
+endobj
+57 0 obj
+<< /Length 5471 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Hackathon Guide) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 26) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(  The other available pages include /onboarding, /profile, /login, and /signup.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 725 Td
+(  Avoid relying on exact score, action, confidence interval, or net-effect numbers:) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 712 Td
+(  these may vary with data and state.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 694 Td
+(90-second spoken demo) Tj
+ET
+BT
+/F1 9.5 Tf
+0.24 0.30 0.36 rg
+62 671 Td
+(  "MaxxLoop starts with a quick check-in about focus, energy, and stress. It) Tj
+ET
+BT
+/F1 9.5 Tf
+0.24 0.30 0.36 rg
+62 658 Td
+(  compares that check-in with the user's recent pattern and explains the main) Tj
+ET
+BT
+/F1 9.5 Tf
+0.24 0.30 0.36 rg
+62 645 Td
+(  contributors. Instead of handing an overloaded user a long list, it offers one) Tj
+ET
+BT
+/F1 9.5 Tf
+0.24 0.30 0.36 rg
+62 632 Td
+(  small action. The user can try it, check in again, and say whether it felt) Tj
+ET
+BT
+/F1 9.5 Tf
+0.24 0.30 0.36 rg
+62 619 Td
+(  helpful. That response becomes part of the user's recommendation history. The) Tj
+ET
+BT
+/F1 9.5 Tf
+0.24 0.30 0.36 rg
+62 606 Td
+(  score and measured change are product estimates, not clinical measurements or) Tj
+ET
+BT
+/F1 9.5 Tf
+0.24 0.30 0.36 rg
+62 593 Td
+(  proof of causality. This demo persona is seeded data; we still need real-world) Tj
+ET
+BT
+/F1 9.5 Tf
+0.24 0.30 0.36 rg
+62 580 Td
+(  evaluation to assess impact.") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 562 Td
+(  Then complete one actual loop on screen. If a stage fails, narrate the failure) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 549 Td
+(  honestly and use the demo console only if the issue is clearly due to live) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 536 Td
+(  data/setup; do not claim a successful live action that did not complete.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 518 Td
+(9. Likely judge questions and good answers) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 493 Td
+(  "Is this a medical app?") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 480 Td
+(  "No. It is a non-medical wellness and focus-support prototype. It does not) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 467 Td
+(  diagnose or treat conditions. Its capacity score is an estimate, and its safety) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 454 Td
+(  phrase matching is limited.") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 436 Td
+(  "What is AI about it?") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 423 Td
+(  "The recommendation layer personalizes from recorded feedback using a lightweight) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 410 Td
+(  Thompson-sampling approach. The default text layer is deterministic templates. We) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 397 Td
+(  do not need to pretend a generative model is making the core score or that one is) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 384 Td
+(  active in this demo.") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 366 Td
+(  "How do you know the action worked?") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 353 Td
+(  "We collect a self-reported before/after check-in and compare it with an estimated) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 340 Td
+(  no-action drift based on prior windows. It helps us track observed response, but) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 327 Td
+(  it is not randomized evidence or proof of causation.") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 309 Td
+(  "Where is data stored?") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 296 Td
+(  "Authentication accounts and sessions use MongoDB. Activity and recommendation) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 283 Td
+(  records use the API's SQLite database. In a hosted deployment, storage and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 270 Td
+(  retention would need production configuration and clear disclosure.") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 252 Td
+(  "What happens with crisis language?") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 239 Td
+(  "A limited English/Hindi/Kannada phrase scanner can interrupt the normal) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 226 Td
+(  recommendation and show support resources. It can miss language or context and is) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 213 Td
+(  not an emergency monitoring service.") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 195 Td
+(  "What is your evidence?") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 182 Td
+(  "We have a working software flow and synthetic simulations for exercising the) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 169 Td
+(  recommendation logic. Those simulations are not real-user studies. The next) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 156 Td
+(  evidence step is supervised usability work and an appropriately reviewed study.") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 138 Td
+(  "How will it scale?") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 125 Td
+(  "The current prototype separates the web client, API, auth store, and product) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 112 Td
+(  records. Before broader deployment we would address managed persistent storage,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 99 Td
+(  operational monitoring, security review, privacy disclosures, and a reviewed) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 86 Td
+(  safety process. Those are production work, not claims about the current local) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 73 Td
+(  demo.") Tj
+ET
+endstream
+endobj
+58 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 59 0 R >>
+endobj
+59 0 obj
+<< /Length 5484 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Hackathon Guide) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 27) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 738 Td
+(10. Evidence and limitations) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 713 Td
+(  The repository contains a synthetic simulation of 200 generated users over 30) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 700 Td
+(  rounds \(6,000 simulated loops\). The accompanying evaluation document reports) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 687 Td
+(  simulation metrics such as helpfulness and capacity change. These are simulation) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 674 Td
+(  outputs, not participant results, independent verification, a clinical study, or) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 661 Td
+(  evidence that MaxxLoop improves mental health. If you mention the numbers, put) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 648 Td
+(  "synthetic simulation" beside them on the slide and in your spoken explanation.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 630 Td
+(  Current limitations to acknowledge when relevant:) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 612 Td
+(  - No established clinician partnership, clinical validation, or real-user efficacy) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 599 Td
+(    study.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 586 Td
+(  - Crisis matching relies on a limited phrase list and can miss context, language,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 573 Td
+(    spelling, or indirect expressions.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 560 Td
+(  - Before/after self-report and estimated drift do not demonstrate causation.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 547 Td
+(  - The default text provider is template-based; optional external model providers) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 534 Td
+(    require explicit configuration and data-flow review.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 521 Td
+(  - MongoDB and SQLite need appropriate managed/backup/persistent configuration) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 508 Td
+(    before a public production deployment. Do not say this project is production-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 495 Td
+(    hosted unless it has actually been deployed and verified.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 482 Td
+(  - Direct calendar, wearable, or browser-history integrations should only be) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 469 Td
+(    described as existing if you can demonstrate their working implementation. Do) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 456 Td
+(    not imply that the app reads private sources automatically based on the roadmap) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 443 Td
+(    or old slides.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 425 Td
+(11. Final preparation checklist) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 400 Td
+(  - Confirm the frontend and API start with the project's current configuration and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 387 Td
+(    show healthy status.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 374 Td
+(  - Use a demo account and seeded persona; do not display secrets or personal data.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 361 Td
+(  - Rehearse one complete check-in -> recommendation -> action -> measurement ->) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 348 Td
+(    feedback loop.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 335 Td
+(  - Confirm the exact labels and buttons in the running UI before putting them on) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 322 Td
+(    slides.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 309 Td
+(  - Keep one backup screenshot or short recording in case the live environment) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 296 Td
+(    fails; label it as a recording.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 283 Td
+(  - Keep simulation numbers visibly labeled as synthetic.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 270 Td
+(  - State the non-medical boundary and measurement limitations plainly.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 257 Td
+(  - Keep the pitch focused: problem, working loop, why the feedback matters, how you) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 244 Td
+(    protect the user, and what evidence you still need.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 226 Td
+(12. Implemented versus planned) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 201 Td
+(Implemented in the current repository) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 178 Td
+(  - Email/password signup, login, logout, and current-user endpoint with MongoDB-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 165 Td
+(    backed accounts/sessions.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 152 Td
+(  - Next.js pages for landing, auth, dashboard, demo, insights, history, profile,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 139 Td
+(    onboarding, and privacy.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 126 Td
+(  - Self-report check-in, capacity/baseline estimate, driver labels, drop/cooldown) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 113 Td
+(    checks, action selection, timer controls, follow-up measurement, feedback, and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 100 Td
+(    aggregate insights.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 87 Td
+(  - SQLModel product records and privacy export/delete/consent endpoints.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 74 Td
+(  - Deterministic template explanation provider; optional provider adapters exist in) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 61 Td
+(    code.) Tj
+ET
+endstream
+endobj
+60 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 61 0 R >>
+endobj
+61 0 obj
+<< /Length 5653 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Demo Script) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 28) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 738 Td
+(  - Authenticated synthetic demo seeding/drop/timewarp endpoints.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 720 Td
+(Not currently established as implemented or validated) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 697 Td
+(  - Public production deployment or production operations.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 684 Td
+(  - Clinician partnership, clinical review, diagnostic validity, or health outcomes.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 671 Td
+(  - Real-user efficacy evidence; simulation output is synthetic.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 658 Td
+(  - Guaranteed crisis detection, emergency monitoring, or guaranteed safety.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 645 Td
+(  - Automatic calendar, browser history, or wearable collection unless a working) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 632 Td
+(    integration is separately demonstrated.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 619 Td
+(  - Device-only or zero-knowledge storage, or a legal compliance certification.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 601 Td
+(Planned / future work) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 578 Td
+(  Usability evaluation, security/privacy review, expert safety review, improved) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 565 Td
+(  measurement and evaluation, production-ready durable storage/operations, and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 552 Td
+(  optional integrations with explicit consent. These are goals, not current) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 539 Td
+(  features; see [Roadmap].) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 521 Td
+(13. Competition positioning and presentation discipline) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 496 Td
+(  Position MaxxLoop around a complete user journey and an inspectable prototype) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 483 Td
+(  architecture. The defensible innovation claim is the project's integration of) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 470 Td
+(  check-in, personal-baseline estimate, one action, follow-up, and feedback-driven) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 457 Td
+(  recommendation state. Avoid "first," "only," "proven," "clinically safe," or) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 444 Td
+(  "guaranteed improvement" unless independently substantiated.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 426 Td
+(  The ASYNC'26 official Wellness & Lifestyle prompt describes turning everyday) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 413 Td
+(  signals into understanding/improvement and the Track -> Understand -> Act ->) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 400 Td
+(  Measure -> Improve pattern. The official page lists idea-deck requirements and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 387 Td
+(  published idea-stage weights; those should not be represented as a confirmed) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 374 Td
+(  final-round rubric unless organizers confirm it. [Problem statements / criteria] ∑) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 361 Td
+(  [Rules].) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 343 Td
+(  For exact click order, use [Demo Script]; for challenging questions, use [Judge) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 330 Td
+(  Q&A].) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 317 Td
+(MaxxLoop Live Demo Script \(3-5 minutes\)) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 287 Td
+(  Use a test account and synthetic demo persona. Check the running buttons and API) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 274 Td
+(  health before starting; exact scores/actions can vary. Never show real passwords,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 261 Td
+(  personal records, or environment values. A demo seed resets the shared) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 248 Td
+(  user_default dataset, so use demo mode only.) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 230 Td
+( |  Time  |  What to click  |  What to say  |  What the judge should notice  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 217 Td
+( |  ---  |  ---  |  ---  |  ---  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 204 Td
+( |  0:00-0:25  |  Open / and introduce MaxxLoop  |  "MaxxLoop connects a short self-) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 191 Td
+(check-in to one useful next step and a follow-up measurement. We want to close the gap) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 178 Td
+(between tracking and action."  |  Clear problem/solution; describe it as a prototype, not) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 165 Td
+(a medical tool.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 152 Td
+( |  0:25-0:50  |  Open /signup and create or use a prepared demo account; then /dashboard) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 139 Td
+(|  "Authentication uses email/password. For the demo I use a test account; the auth store) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 126 Td
+(is MongoDB and product records are stored separately by the API."  |  Actual account flow) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 113 Td
+(and dashboard. Do not reveal credentials.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 100 Td
+( |  0:50-1:20  |  Complete Focus, Energy, Stress check-in; submit  |  "These are self-) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 87 Td
+(reported inputs. The API compares them with available history and returns an estimated) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 74 Td
+(capacity score and contributing signal labels."  |  Short form, range validation,) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 61 Td
+(loading/error response, explanation.  |) Tj
+ET
+endstream
+endobj
+62 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 63 0 R >>
+endobj
+63 0 obj
+<< /Length 5636 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Judge Q&A) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 29) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+( |  1:20-1:50  |  Show drivers and the action/reason panel if one is offered  |  "When) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 725 Td
+(the configured drop and cooldown rules allow it, the system offers one action matched to) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 712 Td
+(the active drivers. Selection uses stored per-action Beta priors and Thompson sampling;) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 699 Td
+(the default explanation is deterministic template text."  |  Single action and) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 686 Td
+(inspectable context. A drop is not guaranteed from every input.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 673 Td
+( |  1:50-2:20  |  Start the action; show timer/steps. If a demo drop is needed, use /demo) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 660 Td
+(controls.  |  "The user can start or skip. The action window is normally configured for) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 647 Td
+(25 minutes; demo timewarp can shorten it for presentation."  |  Controls correspond to) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 634 Td
+(persisted intervention state. Label any seeded data as synthetic.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 621 Td
+( |  2:20-3:10  |  Complete follow-up Focus/Energy/Stress and submit measurement; send) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 608 Td
+(helpful/not helpful feedback  |  "We record observed self-report change and subtract an) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 595 Td
+(estimated no-action drift from prior skipped windows, with a default prior when data is) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 582 Td
+(sparse. This is a useful prototype measure, not proof of causation."  |  Actual) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 569 Td
+(before/after flow and honest caveat.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 556 Td
+( |  3:10-3:40  |  Open /history, then /insights  |  "These views summarize saved signals) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 543 Td
+(and outcomes. Helpful ratios and net-effect summaries describe this user's recorded data,) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 530 Td
+(not clinical efficacy."  |  Persisted records and summary views.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 517 Td
+( |  3:40-4:10  |  Open /privacy; show consent/export/delete controls without executing) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 504 Td
+(destructive action  |  "Activity records are server-side in SQL storage, while accounts) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 491 Td
+(and sessions use MongoDB. The template provider is the default; any external provider) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 478 Td
+(must be configured and its data flow disclosed."  |  Correct privacy/storage explanation.) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 465 Td
+(Do not call it device-only or zero-knowledge.  |) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 452 Td
+( |  4:10-4:30  |  Conclude  |  "Our current contribution is the closed user loop. Next we) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 439 Td
+(need usability evaluation, stronger safety review, and evidence from real users before) Tj
+ET
+BT
+/F1 8.5 Tf
+0.10 0.12 0.16 rg
+54 426 Td
+(making impact claims."  |  Clear implementation-versus-roadmap distinction.  |) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 408 Td
+(Recovery plan if live demo stalls) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 383 Td
+(  1. Confirm /health, MongoDB availability for auth, and frontend/API URLs.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 370 Td
+(  2. If account creation fails, use a previously created test account; do not show) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 357 Td
+(  an error as a success.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 344 Td
+(  3. If a check-in does not trigger a drop, explain that recommendation is) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 331 Td
+(  conditional. Use the authenticated demo console's synthetic trigger only if) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 318 Td
+(  appropriate.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 305 Td
+(  4. If demo controls fail, continue explaining the actual architecture and be) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 292 Td
+(  explicit that the live interaction did not complete. A prerecorded clip/screenshot) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 279 Td
+(  must be identified as prerecorded.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 261 Td
+(Judge-safe phrases) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 236 Td
+(  - Say "estimated capacity score," not "clinical stress score.") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 223 Td
+(  - Say "observed self-report difference minus estimated drift," not "true treatment) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 210 Td
+(    effect.") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 197 Td
+(  - Say "synthetic demo history," not "customer data.") Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 184 Td
+(  - Say "personalization heuristic," not "validated AI model.") Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 171 Td
+(Judge Q&A) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 141 Td
+(  Answers below reflect the current repository. They are intentionally candid. Add) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 128 Td
+(  team-specific facts only if you can verify them.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 110 Td
+(Product) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 85 Td
+(1. What is MaxxLoop?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 67 Td
+(  Answer: A focus/recovery prototype that connects a short check-in to an) Tj
+ET
+endstream
+endobj
+64 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 65 0 R >>
+endobj
+65 0 obj
+<< /Length 4497 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Judge Q&A) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 30) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(  explanation, one suggested action, follow-up measurement, and feedback.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 725 Td
+(  Technical detail: The loop is implemented across /checkins, /loop/*, and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 712 Td
+(  /insights.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 694 Td
+(2. Who is it for?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 676 Td
+(  Answer: Initially students and knowledge workers who want lightweight support for) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 663 Td
+(  focus and recovery.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 650 Td
+(  Technical detail: Current account model is general; no institution/role-specific) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 637 Td
+(  access control is implemented.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 619 Td
+(3. What problem are you solving?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 601 Td
+(  Answer: Self-tracking can show a state without a next step, while generic advice) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 588 Td
+(  may not fit the user's context. We connect a check-in to one action and a later) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 575 Td
+(  record.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 557 Td
+(4. What is the main differentiator?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 539 Td
+(  Answer: The end-to-end closed loop: check in, understand, try one action, measure) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 526 Td
+(  again, and use feedback to shape later suggestions. We do not claim no competitor) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 513 Td
+(  does this.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 495 Td
+(5. Why one action?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 477 Td
+(  Answer: The product is designed to reduce choice burden in the moment. The API) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 464 Td
+(  creates a single offered intervention for an eligible drop.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 446 Td
+(6. What does the user see after a check-in?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 428 Td
+(  Answer: An estimated capacity score/status, baseline and change, available) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 415 Td
+(  drivers, and an action if the drop and cooldown rules permit.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 397 Td
+(Technical) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 372 Td
+(7. What is the stack?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 354 Td
+(  Answer: Next.js/React/TypeScript/Tailwind on the web;) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 341 Td
+(  FastAPI/Python/Pydantic/SQLModel on the API; SQLite for product data and MongoDB) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 328 Td
+(  for auth.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 310 Td
+(8. How does the frontend reach the API?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 292 Td
+(  Answer: A shared fetch wrapper uses NEXT_PUBLIC_API_URL \(default localhost:8000\),) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 279 Td
+(  JSON, and credentialed requests for the session cookie.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 261 Td
+(9. How is the capacity score computed?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 243 Td
+(  Answer: Signal values are compared with baselines, standardized and weighted, then) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 230 Td
+(  mapped to a bounded 0-100 product score. It is not a clinical measurement.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 217 Td
+(  Technical detail: See engine/baseline.py, capacity.py, weights.yaml, and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 204 Td
+(  [Technical architecture].) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 186 Td
+(10. What happens at cold start?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 168 Td
+(  Answer: The baseline engine uses configured population priors/fallback blending) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 155 Td
+(  when personal history is sparse, then can use more personal history as it) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 142 Td
+(  accumulates.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 124 Td
+(11. How are drivers selected?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 106 Td
+(  Answer: Driver contributions from the capacity calculation are labeled and ranked;) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 93 Td
+(  up to three are passed into the recommendation path.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 75 Td
+(12. What database tables exist?) Tj
+ET
+endstream
+endobj
+66 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 67 0 R >>
+endobj
+67 0 obj
+<< /Length 4573 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Judge Q&A) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 31) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(  Answer: User profile, signal, capacity snapshot, intervention, outcome, and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 725 Td
+(  action-prior tables are defined in SQLModel. Mongo has users and sessions) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 712 Td
+(  collections.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 694 Td
+(13. How does user-data isolation work?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 676 Td
+(  Answer: Auth dependencies resolve the account ID and product queries use that ID.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 663 Td
+(  Demo operations deliberately use a shared user_default dataset and should stay in) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 650 Td
+(  demo-only use.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 632 Td
+(14. What protects passwords?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 614 Td
+(  Answer: The auth helper hashes passwords with Argon2 and stores the hash, not) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 601 Td
+(  plaintext. We have not represented that as a complete security audit.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 583 Td
+(15. How are sessions handled?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 565 Td
+(  Answer: A random opaque token is set in an HTTP-only cookie; Mongo stores a) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 552 Td
+(  SHA-256 hash with expiry. The session is checked on protected requests and removed) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 539 Td
+(  on logout.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 521 Td
+(AI / ML) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 496 Td
+(16. Is this machine learning?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 478 Td
+(  Answer: It is not a trained ML model. The action selector uses a lightweight) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 465 Td
+(  statistical Beta/Thompson-sampling method over stored outcomes.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 447 Td
+(17. Is generative AI required?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 429 Td
+(  Answer: No. The default provider is deterministic templates. Optional external) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 416 Td
+(  providers exist, but must be configured and their data flow disclosed.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 398 Td
+(18. How are actions selected?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 380 Td
+(  Answer: Candidate actions are filtered by target-driver overlap. The engine) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 367 Td
+(  samples Beta values and usually chooses the highest sample, with a 15% exploration) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 354 Td
+(  branch when multiple candidates exist.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 336 Td
+(19. How does feedback change recommendations?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 318 Td
+(  Answer: Measurement updates alpha when net effect exceeds two points, otherwise) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 305 Td
+(  beta. The explicit helpfulness response is stored separately and is not the prior) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 292 Td
+(  update criterion in the current code.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 274 Td
+(20. Does the algorithm prove which action works?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 256 Td
+(  Answer: No. It adapts a heuristic from observed in-app data. Selection bias, self-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 243 Td
+(  report, small samples, and the drift estimate limit interpretation.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 225 Td
+(Data and measurement) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 200 Td
+(21. How do you measure an action?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 182 Td
+(  Answer: Compare pre/post self-report scores, then subtract an estimated no-action) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 169 Td
+(  drift based on skipped-intervention windows, blended with a prior when sparse.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 151 Td
+(22. Is net effect causal?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 133 Td
+(  Answer: No. It is an observational estimate and not a randomized controlled) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 120 Td
+(  comparison.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 102 Td
+(23. What data do you collect automatically?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 84 Td
+(  Answer: Do not claim automatic calendar, wearable, or browser collection unless) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 71 Td
+(  you can demonstrate a working source integration. Current check-in inputs are) Tj
+ET
+endstream
+endobj
+68 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 69 0 R >>
+endobj
+69 0 obj
+<< /Length 4541 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Judge Q&A) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 32) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(  self-reported; signal endpoints can accept numeric signals.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 720 Td
+(24. Where is data stored?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 702 Td
+(  Answer: Auth accounts/sessions are in MongoDB. Product activity and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 689 Td
+(  profile/preferences are stored server-side in SQLModel storage, SQLite by default.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 671 Td
+(25. Is demo data real?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 653 Td
+(  Answer: No. Demo seeding creates synthetic persona history and sample records.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 635 Td
+(Safety, privacy, and security) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 610 Td
+(26. Is MaxxLoop a medical product?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 592 Td
+(  Answer: No. It does not diagnose or treat conditions, and its score is not) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 579 Td
+(  clinically validated.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 561 Td
+(27. What happens when crisis language is entered?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 543 Td
+(  Answer: A limited phrase scanner can pause the normal check-in flow and return) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 530 Td
+(  support resources. It can miss meaning and is not emergency monitoring.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 512 Td
+(28. Is a doctor part of the team/product?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 494 Td
+(  Answer: There is no clinician built into the current product and no clinical) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 481 Td
+(  review is established by the repo. Professional review is a future requirement) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 468 Td
+(  before any clinical positioning.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 450 Td
+(29. Is data zero-knowledge or device-only?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 432 Td
+(  Answer: No such claim is supported. Product data is stored by the backend;) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 419 Td
+(  accounts/sessions use MongoDB.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 401 Td
+(30. Can users export or delete data?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 383 Td
+(  Answer: The API has export and product-data deletion endpoints. Deletion retains) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 370 Td
+(  account/session infrastructure and profile while deleting activity records and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 357 Td
+(  priors; it is not account deletion.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 339 Td
+(Scalability, business, innovation, and limits) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 314 Td
+(31. Is it deployed publicly?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 296 Td
+(  Answer: No verified production deployment is documented in this repository. There) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 283 Td
+(  is a Dockerfile/Compose setup, but Compose does not include MongoDB and needs) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 270 Td
+(  configuration review.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 252 Td
+(32. How would you scale it?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 234 Td
+(  Answer: First establish managed durable storage, deployment secrets/networking,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 221 Td
+(  observability, backups, rate limits, and a reviewed security/privacy process. Then) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 208 Td
+(  measure real workload before scaling architecture.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 190 Td
+(33. What evidence do you have?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 172 Td
+(  Answer: There is an implemented software flow and a synthetic simulation.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 159 Td
+(  Simulation output is not user evidence or clinical validation.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 141 Td
+(34. What is the business model?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 123 Td
+(  Answer: The current code does not implement billing or validate a business model.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 110 Td
+(  A possible future path could be explored with users/institutions, but that is a) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 97 Td
+(  hypothesis.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 79 Td
+(35. What is the biggest risk?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 61 Td
+(  Answer: Users may interpret an estimated score or limited recommendation as more) Tj
+ET
+endstream
+endobj
+70 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 71 0 R >>
+endobj
+71 0 obj
+<< /Length 5166 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Roadmap) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 33) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 738 Td
+(  authoritative than it is. Clear non-medical language, careful safety review, and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 725 Td
+(  real-user evaluation are essential.) Tj
+ET
+BT
+/F2 11 Tf
+0.03 0.32 0.28
+54 707 Td
+(36. What would you build next?) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 689 Td
+(  Answer: Usability and API/browser tests, a privacy/security review, clinician-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 676 Td
+(  informed safety review, and a careful real-user evaluation before claims of) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 663 Td
+(  effectiveness.) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 650 Td
+(Limitations) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 620 Td
+(  - Prototype evidence: no real-user efficacy study or clinical validation is) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 607 Td
+(    established. Synthetic simulation is not participant data.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 594 Td
+(  - Medical boundary: the score is not validated clinically; the product does not) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 581 Td
+(    diagnose or treat conditions.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 568 Td
+(  - Crisis safety: phrase matching is limited, can miss indirect language/context) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 555 Td
+(    and can false-positive. It is not continuous monitoring or guaranteed) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 542 Td
+(    protection.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 529 Td
+(  - Measurement: self-report before/after plus estimated drift cannot prove) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 516 Td
+(    causation; fallback drift is used when control history is sparse.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 503 Td
+(  - Recommendation: priors and the threshold-based update are simple heuristics.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 490 Td
+(    Feedback volume, selection bias, and synthetic/demo records can affect apparent) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 477 Td
+(    results.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 464 Td
+(  - Data integrations: repository signal kinds support manual/import-style numeric) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 451 Td
+(    inputs, but automatic calendar, wearable, or browser-history integration should) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 438 Td
+(    not be claimed without a working implementation.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 425 Td
+(  - Privacy: product data is stored server-side in SQL DB; auth is in Mongo. No) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 412 Td
+(    privacy certification or legal compliance assessment is documented.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 399 Td
+(  - Operations: Compose omits Mongo and no verified production deployment) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 386 Td
+(    configuration was found. SQLite durability needs explicit volume/backup) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 373 Td
+(    planning.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 360 Td
+(  - Auth features: no password reset, email verification, or account deletion route) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 347 Td
+(    was found.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 334 Td
+(  - Testing: backend tests exist; no browser automation or frontend test runner) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 321 Td
+(    configuration was found in the inspected project files.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 308 Td
+(  - Demo: seeded persona uses shared user_default data, resets that demo dataset,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 295 Td
+(    and includes generated synthetic history. Keep it separate from real users.) Tj
+ET
+BT
+/F2 18 Tf
+0.03 0.32 0.28
+54 282 Td
+(Roadmap) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 252 Td
+(  Everything below "Current" is future work and not a claim about implemented) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+54 239 Td
+(  capability.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 221 Td
+(Current) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 196 Td
+(  - Account/session flow with MongoDB.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 183 Td
+(  - Check-in, capacity estimate, driver display, one-action recommendation,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 170 Td
+(    measurement, feedback, insights/history, privacy controls, and authenticated) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 157 Td
+(    demo tools.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 144 Td
+(  - SQLite product persistence by default; template explanation provider by default.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 126 Td
+(Next \(suggested\)) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 101 Td
+(  - Rehearse moderated usability sessions and improve confusing steps.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 88 Td
+(  - Add frontend/browser tests and API contract coverage for critical flows.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 75 Td
+(  - Review privacy disclosures, consent semantics, data retention, and account) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 62 Td
+(    lifecycle.) Tj
+ET
+endstream
+endobj
+72 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 73 0 R >>
+endobj
+73 0 obj
+<< /Length 1549 >>
+stream
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+54 24 Td
+(MaxxLoop Project Documentation - Roadmap) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.38 0.43 rg
+538 24 Td
+(Page 34) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 738 Td
+(  - Conduct security review of production session, CSRF, rate limit, secret, and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 725 Td
+(    deployment settings.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 712 Td
+(  - Improve measurement methodology before making efficacy claims.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 699 Td
+(  - Add operational health/readiness checks and durable database backups.) Tj
+ET
+BT
+/F2 13 Tf
+0.03 0.32 0.28
+54 681 Td
+(Future \(ideas, not commitments\)) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 656 Td
+(  - Qualified clinical/safety advisor review of language, action library, and crisis) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 643 Td
+(    handoff.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 630 Td
+(  - Carefully designed real-user evaluation with appropriate review and consent.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 617 Td
+(  - Optional integrations \(calendar/wearables\) only with explicit consent and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 604 Td
+(    minimization.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 591 Td
+(  - Mobile client or improved installable experience.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 578 Td
+(  - More robust experimentation and recommendation evaluation.) Tj
+ET
+BT
+/F1 9.5 Tf
+0.10 0.12 0.16 rg
+62 565 Td
+(  - Managed SQL/Mongo deployment, observability, scaling, and operational playbooks.) Tj
+ET
+endstream
+endobj
+xref
+0 74
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000352 00000 n 
+0000000422 00000 n 
+0000000497 00000 n 
+0000000565 00000 n 
+0000000711 00000 n 
+0000003252 00000 n 
+0000003398 00000 n 
+0000008573 00000 n 
+0000008721 00000 n 
+0000013352 00000 n 
+0000013500 00000 n 
+0000018439 00000 n 
+0000018587 00000 n 
+0000023736 00000 n 
+0000023884 00000 n 
+0000028942 00000 n 
+0000029090 00000 n 
+0000034207 00000 n 
+0000034355 00000 n 
+0000039381 00000 n 
+0000039529 00000 n 
+0000044636 00000 n 
+0000044784 00000 n 
+0000049869 00000 n 
+0000050017 00000 n 
+0000055106 00000 n 
+0000055254 00000 n 
+0000060134 00000 n 
+0000060282 00000 n 
+0000065441 00000 n 
+0000065589 00000 n 
+0000070441 00000 n 
+0000070589 00000 n 
+0000075761 00000 n 
+0000075909 00000 n 
+0000081425 00000 n 
+0000081573 00000 n 
+0000085675 00000 n 
+0000085823 00000 n 
+0000090705 00000 n 
+0000090853 00000 n 
+0000096406 00000 n 
+0000096554 00000 n 
+0000101051 00000 n 
+0000101199 00000 n 
+0000106234 00000 n 
+0000106382 00000 n 
+0000111950 00000 n 
+0000112098 00000 n 
+0000117330 00000 n 
+0000117478 00000 n 
+0000123057 00000 n 
+0000123205 00000 n 
+0000128919 00000 n 
+0000129067 00000 n 
+0000134591 00000 n 
+0000134739 00000 n 
+0000140276 00000 n 
+0000140424 00000 n 
+0000146130 00000 n 
+0000146278 00000 n 
+0000151967 00000 n 
+0000152115 00000 n 
+0000156665 00000 n 
+0000156813 00000 n 
+0000161439 00000 n 
+0000161587 00000 n 
+0000166181 00000 n 
+0000166329 00000 n 
+0000171548 00000 n 
+0000171696 00000 n 
+trailer
+<< /Size 74 /Root 1 0 R >>
+startxref
+173298
+%%EOF

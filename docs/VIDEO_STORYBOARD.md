@@ -1,5 +1,7 @@
 # MaxxLoop 2-Minute Prototype Video Storyboard
 
+> **Historical storyboard:** Several claims below are unsupported by the current implementation, including zero-knowledge/device-only storage and fully offline operation. Verify before reuse. Current presenter guidance: [HACKATHON_GUIDE.md](HACKATHON_GUIDE.md) and [DEMO_SCRIPT.md](DEMO_SCRIPT.md).
+
 This storyboard outlines the shot list, on-screen text overlays, and voice-over narrative for a 2-minute prototype demo video for the **ASYNC 2026 Hackathon**.
 
 ---

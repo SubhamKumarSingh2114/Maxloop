@@ -1,5 +1,7 @@
 # MaxxLoop Project Status & Verification Matrix
 
+> **Historical snapshot:** This status matrix is not a current verification report. Some entries overstate implementation or evidence. Use [docs/README.md](README.md) for current documentation and [docs/LIMITATIONS.md](LIMITATIONS.md) for verified boundaries. Tests/builds were not run while generating the current documentation.
+
 *Track: Wellness & Lifestyle — ASYNC 2026 Hackathon*  
 *Evaluation Date: September 2026*  
 *Status: Complete & Demo-Ready (`v1.0.0-demo`)*
